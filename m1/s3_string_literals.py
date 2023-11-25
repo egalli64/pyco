@@ -32,6 +32,10 @@ code_grin = 0x1F600
 s5 = chr(code_grin)
 print("A Unicode code and its associated character:", hex(code_grin), s5)
 
+# escape sequences
+s6 = "a multiline string\nis useful for representing a long text\nthat should be read by humans"
+print(s6)
+
 # f-string
 PI = 3.141592653589793
 radius = 5
