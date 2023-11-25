@@ -8,14 +8,17 @@ Module 1 - Fundamental concepts
 Variables
 """
 
-# defining a string variable
+# defining variables
 message = "Hello!"
+answer = 42
 
-# using a previously defined variable
+# using previously defined variables
 print(message)
+print(answer)
 
 # using an undefined variable is a (bad) mistake
 # print(mesage)
 
 # the type of the variable stored in message
 print(type(message))
+print(type(answer))
