@@ -3,7 +3,7 @@ Python Course - Base
 
 https://github.com/egalli64/pycoba
 
-Module 2 - List
+Module 3 - List
 
 Editing
 """
