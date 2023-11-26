@@ -10,6 +10,7 @@ Definition
 friends = ["bob", "tom", "kim"]
 
 print("A list:", friends)
+print("The list length is", len(friends))
 
 first = friends[0]
 print(f"The first friend is '{first}'")
