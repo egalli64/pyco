@@ -5,10 +5,26 @@ https://github.com/egalli64/pycoba
 
 Module 3 - List
 
-Editing
+Search and editing
 """
 friends = ["bob", "tom", "kim", "abe", "luc"]
 print("A list:", friends)
+
+# get the index for an element by value
+pos = friends.index("kim")
+print("kim has been found in position", pos)
+
+# index() throws when not found
+try:
+    friends.index("bobby")
+except ValueError:
+    print("bobby is not in the list!")
+
+if "kim" in friends:
+    print("kim has been found")
+
+if "bobby" not in friends:
+    print("bobby is not in the list!")
 
 # change the first element with 'bobby'
 friends[0] = "bobby"
