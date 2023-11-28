@@ -26,3 +26,5 @@ try:
     print(users[3])
 except KeyError:
     print("Can't access a value for a missing key!")
+    
+print(users.get(3))
