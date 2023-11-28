@@ -3,7 +3,7 @@ Python Course - Base
 
 https://github.com/egalli64/pycoba
 
-Module 3 - Dictionary
+Module 4 - Dictionary
 
 Definition
 """
