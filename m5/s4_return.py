@@ -34,7 +34,7 @@ def solution():
     return 42
 
 
-# calling solution we get an int
+# an integer is assigned to result
 result = solution()
 print(result, type(result))
 
@@ -49,6 +49,16 @@ def is_even(value):
         return False
 
 
-# calling is_even we get a bool: True or False
+# a boolean is assigned to result
 result = is_even(solution())
+print(result, type(result))
+
+
+def prev_next(value):
+    """A function returning a tuple"""
+    return (value-1, value+1)
+
+
+# a tuple is assigned to result
+result = prev_next(solution())
 print(result, type(result))
