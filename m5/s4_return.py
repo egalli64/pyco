@@ -43,7 +43,8 @@ def is_even(value):
     """A function with two possible return values"""
     if value % 2 == 0:
         return True
-        print("This is not good")
+        # code after a return in the same control flow is "dead code"
+        # print("This is not good")
     else:
         return False
 
