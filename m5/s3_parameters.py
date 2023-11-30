@@ -32,3 +32,17 @@ greeting2("Mr", "Tom")
 
 # letting the name as default
 greeting2("Doctor")
+
+
+def greeting3(*names):
+    print("Hello", end=" ")
+    if len(names) == 0:
+        print("stranger, ", end="")
+    for name in names:
+        print(f"{name}, ", end="")
+    print("nice to meet you!")
+
+
+greeting3("Tom")
+greeting3("Tom", "Bob")
+greeting3()
