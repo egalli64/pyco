@@ -34,15 +34,31 @@ greeting2("Mr", "Tom")
 greeting2("Doctor")
 
 
-def greeting3(*names):
+def greeting3(*args):
+    """A vararg function"""
     print("Hello", end=" ")
-    if len(names) == 0:
+    if len(args) == 0:
         print("stranger, ", end="")
-    for name in names:
+    for name in args:
         print(f"{name}, ", end="")
     print("nice to meet you!")
 
 
+# calling a vararg function
 greeting3("Tom")
 greeting3("Tom", "Bob")
 greeting3()
+
+
+def print_info(name, **kwargs):
+    """A keyword-vararg function"""
+    if len(kwargs) == 0:
+        print("No info available for", name)
+
+    for key, value in kwargs.items():
+        print(f"{name} {key} is {value}")
+
+
+# calling a keyword-vararg function
+print_info("Tom", profession="coder", city="Madrid")
+print_info("Bob")
