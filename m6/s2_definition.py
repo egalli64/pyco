@@ -5,32 +5,41 @@ https://github.com/egalli64/pycoba
 
 Module 6 - Object Oriented Programming
 
-Class, object, constructor
+Class and object
 """
 
 
 class Empty:
-    """Define a minimal class"""
+    """Define an empty class"""
 
 
 # instantiate an object of the Empty class
 empty = Empty()
+
+# using the Empty object
 print(empty)
 
 
-class Dog:
-    """Define a simple class"""
+class Minimal:
+    """Define a minimal class"""
 
-    def __init__(self, name):
-        """Initialize the state of the current dog"""
-        self.name = name
+    # uncommon, see __init__ usage
+    attribute = "a value"
 
-    def bark(self):
-        """A plain method"""
-        print(f"{self.name} is barking")
+    def method(self):
+        """A minimal method"""
+        print("The method has been called")
 
 
-# instantiate an object of the Dog class
-bob = Dog("Bob")
-# invoking a method on the dog instance
-bob.bark()
+# instantiate objects of the Minimal class
+mini_1 = Minimal()
+mini_2 = Minimal()
+
+# accessing the attribute of Minimal objects
+mini_1.attribute = "one"
+
+print("mini_1 attribute is:", mini_1.attribute)
+print("mini_2 attribute is:", mini_2.attribute)
+
+# invoking the method on a Minimal object
+mini_2.method()
