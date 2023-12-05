@@ -22,6 +22,22 @@ greeting(title="Ms", name="Pat")
 greeting(name="Strange", title="Doctor")
 
 
+def greeting_keyword_only(*, title, name):
+    """
+    A simple function with two parameters.
+    The argument can be passed only by keyword.
+    """
+    print(f"Chop, chop, {title} {name}!")
+
+
+greeting_keyword_only(title="Sir", name="Pent")
+try:
+    # won't work
+    greeting_keyword_only("Lady", "Dahl")
+except TypeError as ex:
+    print(ex)
+
+
 def greeting2(title, name="Bob"):
     """A simple function with two parameters, the second with a default"""
     print(f"Welcome, {title} {name}!")
@@ -62,3 +78,8 @@ def print_info(name, **kwargs):
 # calling a keyword-vararg function
 print_info("Tom", profession="coder", city="Madrid")
 print_info("Bob")
+
+# using splat to extract arguments from an iterable
+values = ("King", "James")
+greeting(*values)
+greeting3(*values)
