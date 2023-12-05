@@ -75,3 +75,7 @@ print("After 'x //= 2', x is", x)  # 7
 
 x %= 5
 print("After 'x %= 5', x is", x)  # 2
+
+# The assignment expression
+x = 30 + (y := 12)
+print(f"Assigning values to both x ({x}) and y ({y})")
