@@ -79,7 +79,11 @@ def print_info(name, **kwargs):
 print_info("Tom", profession="coder", city="Madrid")
 print_info("Bob")
 
-# using splat to extract arguments from an iterable
+# splat an iterable argument to parameters
 values = ("King", "James")
 greeting(*values)
 greeting3(*values)
+
+# splat a dictionary argument to parameters
+info = {"title": "Mr", "name": "White"}
+greeting(**info)
