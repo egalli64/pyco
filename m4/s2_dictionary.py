@@ -32,4 +32,6 @@ try:
 except KeyError:
     print("Can't access a value for a missing key!")
 
+# get() by default return None when the key is missing
 print(users.get(3))
+print(users.get(3, "Can't find the passed key!"))
