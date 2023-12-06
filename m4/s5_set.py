@@ -18,10 +18,14 @@ print(enemies, type(enemies))
 # a set of six strings!
 letters = set("emanuele")
 
+# an immutable set
+people = frozenset(["jo", "bo", "mo"])
+print(people, type(people))
+
 # len()
 print("Length of letters is", len(letters))
 
-# operator in on
+# operator in
 target = 'a'
 if target in letters:
     print(f"'{target}' found in {letters}")
@@ -29,3 +33,8 @@ if target in letters:
 # for loop
 for letter in letters:
     print("-", letter)
+
+# set comprehension
+
+values = {x for x in range(20) if x % 3 == 1}
+print(values)
