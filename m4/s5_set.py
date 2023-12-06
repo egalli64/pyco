@@ -18,11 +18,6 @@ print(enemies, type(enemies))
 # a set of six strings!
 letters = set("emanuele")
 
-# changing content
-friends.remove("tom")
-enemies.add("tom")
-print(f"Friends: {friends}, enemies: {enemies}")
-
 # len()
 print("Length of letters is", len(letters))
 
