@@ -3,9 +3,9 @@ Python Course - Base
 
 https://github.com/egalli64/pycoba
 
-Module 4 - Dictionary
+Module 4 - Dictionary and set
 
-Views, looping
+Dictionary: views, looping
 """
 friends = {"kim": 1284, "bob": 4423, "tom": 1284, "jim": 1299}
 

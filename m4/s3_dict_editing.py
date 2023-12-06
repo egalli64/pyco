@@ -3,9 +3,9 @@ Python Course - Base
 
 https://github.com/egalli64/pycoba
 
-Module 4 - Dictionary
+Module 4 - Dictionary and set
 
-insert, edit, remove, check
+Dictionary: insert, edit, remove, check
 """
 friends = {}
 print("An empty dictionary:", friends)

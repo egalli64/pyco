@@ -3,9 +3,9 @@ Python Course - Base
 
 https://github.com/egalli64/pycoba
 
-Module 4 - Dictionary
+Module 4 - Dictionary and set
 
-Definition
+Dictionary
 """
 # a dictionary representing a user
 alice = {"name": "Alice", "age": 32, "city": "Madrid"}
