@@ -8,20 +8,26 @@ Module 1 - Fundamental concepts
 Variables
 """
 
-# defining variables
+# defining a few variables
 message = "Hello!"
-answer = 42
 unknown = None
+# please, consider this variable as if it was a constant
+ANSWER = 42
 
 # using previously defined variables
 print(message)
-print(answer)
+print(ANSWER)
 print(unknown)
 
 # using an undefined variable is a (Name) error
 # print(mesage)
 
-# the type of the object referenced by the variable
+# the type of a variable is the type of the object it currently references
 print(type(message))
-print(type(answer))
+print(type(ANSWER))
 print(type(unknown))
+
+# the unique id associated with the referenced objects
+print(id(message))
+print(id(ANSWER))
+print(id(unknown))
