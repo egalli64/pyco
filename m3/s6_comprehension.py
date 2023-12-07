@@ -33,6 +33,6 @@ print(squares_c)
 evens = [x for x in range(10) if x % 2 == 0]
 print(evens)
 
-# the external LC for rows, the internal one for columns
+# the external comprehension for rows, the internal one for columns
 matrix = [[i + j for j in range(2)] for i in range(3)]
 print(matrix)
