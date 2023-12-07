@@ -45,9 +45,15 @@ try:
 except KeyError:
     print("Can't pop an item for a missing key!")
 
+# remove all items
+friends.clear()
+print("After clearing friends:", friends)
+
 # check for presence
+friends["bob"] = 8473
+
 if "bob" in friends:
-    print("bob is still in")
+    print("bob is in")
 
 if "jim" not in friends:
-    print("jim is not in anymore")
+    print("jim is not in")
