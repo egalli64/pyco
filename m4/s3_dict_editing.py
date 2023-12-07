@@ -20,6 +20,15 @@ print("After adding bob, jim, and tom:", friends)
 friends["jim"] = 1298
 print("After changing jim value:", friends)
 
+cur_value = friends.setdefault("jim", 3874)
+if(cur_value != 3874):
+    print("jim was already in")
+
+cur_value = friends.setdefault("dan", 3874)
+if(cur_value == 3874):
+    print("dan is in")
+
+
 # change and assign a value
 try:
     friends["jim"] += 1
