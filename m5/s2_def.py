@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 5 - Function
 
-Definition
+Definition and invocation
 """
 
 # NameError, can't invoke a function before its definition
@@ -23,14 +23,11 @@ def greeter(name):
     """
     Define a function named "greeter" that print a hello message to the passed name
 
-    Parameters
-    ----------
-    name : a string
-        The name object of greeting
+    Parameters:
+        name: a string, name of the greeted person
 
-    Returns
-    -------
-    None
+    Returns:
+        None
     """
     print(f"Hello, {name}!")
 
