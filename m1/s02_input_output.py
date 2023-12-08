@@ -10,18 +10,17 @@ Input and output
 # print a single string to the console
 print("Hello, Python")
 
-# print three values: string, integer, string
-print("Hello", 42, "Python")
+# print more arguments
+print("Hello", "Python")
 
 # use an underscore as separator
-print("Hello", 42, "Python", sep="_")
+print("Hello", "Python", sep="_")
 
-# do not to the next line at the end of each print
+# do not add a newline at the end of each print
 print("Hello", end="")
-print(42, end="")
 print("Python", end="")
 
-# print just a new line
+# print just a newline
 print()
 
 name = input("What's your name? ")
