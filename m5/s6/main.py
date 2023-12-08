@@ -1,11 +1,11 @@
 """
-Python Course - Base
+Python Course
 
-https://github.com/egalli64/pycoba
+https://github.com/egalli64/pyco
 
 Module 5 - Function
 
-The "main" module
+A "main" module
 """
 import other
 

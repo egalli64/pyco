@@ -1,7 +1,7 @@
 """
-Python Course - Base
+Python Course
 
-https://github.com/egalli64/pycoba
+https://github.com/egalli64/pyco
 
 Module 6 - Object Oriented Programming
 
