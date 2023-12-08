@@ -8,3 +8,4 @@ Developed on Python 3.12
 ## Module 5 - Function and module
 ## Module 6 - Object Oriented Programming
 ## Module 7 - File
+## Module 8 - Design Pattern
