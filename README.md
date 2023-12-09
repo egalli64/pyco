@@ -5,7 +5,8 @@ Developed on Python 3.12
 ## Module 2 - Control Flow
 ## Module 3 - List
 ## Module 4 - Dictionary and set
-## Module 5 - Function and module
-## Module 6 - Object Oriented Programming
-## Module 7 - File
-## Module 8 - Design Pattern
+## Module 5 - Function
+## Module 6 - Module
+## Module 7 - Object Oriented Programming
+## Module 8 - File
+## Module 9 - Design Pattern
