@@ -5,13 +5,13 @@ https://github.com/egalli64/pyco
 
 Module 9 - More on functions
 
-Decorator (change behavior of decorated function)
+Decorator (change input for and output from the decorated function)
 """
 
 
 def increase_and_square(f):
     """
-    A decorator that changes the decorated behavior
+    A decorator that changes the arguments and result of the decorated function
 
     Each argument is increased by one
     The result is squared
@@ -19,7 +19,7 @@ def increase_and_square(f):
 
     def wrapper(*args, **kwargs):
         """The closure wraps the call to the decorated function"""
-        # 1. before: in-place increase of arguments
+        # 1. before: increase of arguments
         increased_args = tuple(arg + 1 for arg in args)
         increased_kwargs = {key: value + 1 for key, value in kwargs.items()}
         print(f"The caller passed {args} and {kwargs} to {f.__name__}")
@@ -37,8 +37,9 @@ def increase_and_square(f):
 
 @increase_and_square
 def sum_and_multiply(a, b, c):
+    """A simple function (decorated)"""
     return (a + b) * c
 
 
-# calling the decorated functions
+# calling the decorated function
 print("The caller sees as result", sum_and_multiply(2, 3, c=4))
