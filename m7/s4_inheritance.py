@@ -55,3 +55,7 @@ tom.just_bark()
 jim = Spaniel("Jim")
 jim.bark()
 jim.run()
+
+# check is-a relation by issubclass
+print("Is Spaniel a Dog?", issubclass(Spaniel, Dog))
+print("Is Spaniel a Poodle?", issubclass(Spaniel, Poodle))
