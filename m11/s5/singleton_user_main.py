@@ -3,7 +3,7 @@ Python Course
 
 https://github.com/egalli64/pyco
 
-Module 10 - Design Pattern
+Module 11 - Design Pattern
 
 Singleton (by module)
 """
