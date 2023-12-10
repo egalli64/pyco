@@ -10,4 +10,4 @@ Developed on Python 3.12
 ## Module 7 - Object Oriented Programming
 ## Module 8 - File
 ## Module 9 - More on function
-## Module 10 - Design Pattern
+## Module 10 - Design Patterns
