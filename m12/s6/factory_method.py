@@ -3,7 +3,7 @@ Python Course
 
 https://github.com/egalli64/pyco
 
-Module 11 - Design Patterns
+Module 12 - Design Patterns
 
 Factory Method
 """

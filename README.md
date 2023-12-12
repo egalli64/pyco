@@ -11,4 +11,5 @@ Developed on Python 3.12
 ## Module 8 - File
 ## Module 9 - More on function
 ## Module 10 - More on Object Oriented Programming
-## Module 11 - Design Patterns
+## Module 11 - Log and Test
+## Module 12 - Design Patterns
