@@ -17,3 +17,8 @@ def add(left, right):
 def subtract(left, right):
     """A subtractor"""
     return left - right
+
+
+def floor_divide(left, right):
+    """A floor divider"""
+    return left // right
