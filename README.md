@@ -1,15 +1,20 @@
 # pyco - Python course
 Developed on Python 3.12
 
-## Module 1 - Fundamental concepts
-## Module 2 - Control Flow
-## Module 3 - List
-## Module 4 - Dictionary and set
-## Module 5 - Function
-## Module 6 - Module
-## Module 7 - Object Oriented Programming
-## Module 8 - File
-## Module 9 - More on function
-## Module 10 - More on Object Oriented Programming
-## Module 11 - Log and Test
-## Module 12 - Design Patterns
+## Part 1
+
+### 1 - Fundamental concepts
+### 2 - Control Flow
+### 3 - List
+### 4 - Dictionary and set
+### 5 - Function
+### 6 - Module
+### 7 - Object Oriented Programming
+### 8 - File
+
+## Part 2
+
+### 9 - More on function
+### 10 - More on Object Oriented Programming
+### 11 - Log and Test
+### 12 - Design Patterns
