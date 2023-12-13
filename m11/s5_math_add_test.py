@@ -11,7 +11,7 @@ import unittest
 import s5_math as m
 
 
-class TestS4MathAdd(unittest.TestCase):
+class TestMathAdd(unittest.TestCase):
     """Stress on readability"""
 
     def test_add_plain(self):

@@ -11,7 +11,7 @@ import unittest
 import s5_math as m
 
 
-class TestS4MathSubtract(unittest.TestCase):
+class TestMathSubtract(unittest.TestCase):
     """Stress on compactness"""
 
     def test_subtract_plain(self):
