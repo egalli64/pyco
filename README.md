@@ -8,7 +8,7 @@ Developed on Python 3.12
 ### 3 - List
 ### 4 - Dictionary and set
 ### 5 - Function
-### 6 - Module
+### 6 - Modules and Packages
 ### 7 - Object Oriented Programming
 ### 8 - File
 

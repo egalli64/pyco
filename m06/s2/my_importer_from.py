@@ -3,7 +3,7 @@ Python Course
 
 https://github.com/egalli64/pyco
 
-Module 6 - Module
+Module 6 - Modules and Packages
 
 Import a module using alias
 """

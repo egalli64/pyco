@@ -3,7 +3,7 @@ Python Course
 
 https://github.com/egalli64/pyco
 
-Module 6 - Module
+Module 6 - Modules and Packages
 
 A module to be imported
 """
