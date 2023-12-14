@@ -7,7 +7,7 @@ Module 6 - Modules and Packages
 
 Import a module using alias
 """
-import my_module as my
+import m06.s2_module.a_module as my
 
 # calling a function defined in the imported module
 my.greeting("Tom")

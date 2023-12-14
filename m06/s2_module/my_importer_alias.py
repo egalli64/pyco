@@ -5,12 +5,13 @@ https://github.com/egalli64/pyco
 
 Module 6 - Modules and Packages
 
-Import a module
+Import from a module
 """
-import my_module
+from m06.s2_module.a_module import greeting
+from m06.s2_module.a_module import APPLICATION_NAME as NAME
 
 # calling a function defined in the imported module
-my_module.greeting("Tom")
+greeting("Tom")
 
 # accessing a variable (constant) defined in the imported module
-print("The application name is", my_module.APPLICATION_NAME)
+print("The application name is", NAME)
