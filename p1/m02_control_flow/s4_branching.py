@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -12,7 +12,7 @@ s = "Welcome To Pythonville"
 
 # stop printing if a blank is found
 for c in s:
-    if c == ' ':
+    if c == " ":
         break
     else:
         print(c, end="")
@@ -20,7 +20,7 @@ print()
 
 # skip blanks
 for c in s:
-    if c == ' ':
+    if c == " ":
         continue
     else:
         print(c, end="")
@@ -28,7 +28,7 @@ print()
 
 # skip blanks, without using continue
 for c in s:
-    if c != ' ':
+    if c != " ":
         print(c, end="")
 print()
 
@@ -36,7 +36,7 @@ print()
 def print_first_word(s):
     """A function that prints up to the first blank"""
     for c in s:
-        if c == ' ':
+        if c == " ":
             return
         else:
             print(c, end="")
