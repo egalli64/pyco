@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -11,6 +11,7 @@ Variables - None
 x = None
 
 print("The value of x is", x)
+print("Type of x is", type(x))
 
 # preferred way to check against None
 if x is None:

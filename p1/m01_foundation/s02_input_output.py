@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -26,5 +26,9 @@ print()
 name = input("What's your name? ")
 print("Hello,", name)
 
-age = int(input("How old are you? "))
+# get the user input, providing a prompt
+s = input("How old are you? ")
+
+# convert the string to int (beware of ValueError)
+age = int(s)
 print("I wonder if you are really ", age, ", ", name, sep="")

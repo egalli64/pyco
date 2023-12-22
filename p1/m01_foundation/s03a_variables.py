@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -10,13 +10,13 @@ Variables
 
 # defining a few variables
 message = "Hello!"
-unknown = None
-# please, consider this variable as if it was a constant
+flag = True
+# consider this variable as if it was a constant
 ANSWER = 42
 
 # using previously defined variables
 print("message:", message)
-print("unknown", unknown)
+print("flag", flag)
 print("ANSWER:", ANSWER)
 
 # using an undefined variable is a NameError
@@ -24,7 +24,7 @@ print("ANSWER:", ANSWER)
 
 # the type of a variable is the type of the object it currently references
 print("Type of message is", type(message))
-print("Type of unknown is", type(unknown))
+print("Type of flag is", type(flag))
 print("Type of ANSWER is", type(ANSWER))
 
 # check if the type is the expected one by isinstance
@@ -35,5 +35,5 @@ print("Is ANSWER a str?", isinstance(ANSWER, str))
 
 # the unique id associated with the referenced objects
 print("message id:", id(message))
-print("unknown id:", id(unknown))
+print("flag id:", id(flag))
 print("ANSWER id:", id(ANSWER))

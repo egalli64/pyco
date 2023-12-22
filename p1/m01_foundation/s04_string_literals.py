@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -15,7 +15,7 @@ s2 = "another string"
 print(type(s2), s2)
 
 s3 = """a multiline string
-is useful for representing a long text
+is useful to represent a long text
 that should be read by humans"""
 print(type(s3), s3)
 
@@ -33,12 +33,12 @@ s5 = chr(code_grin)
 print("A Unicode code and its associated character:", hex(code_grin), s5)
 
 # escape sequences
-s6 = "a multiline string\nis useful for representing a long text\nthat should be read by humans"
+s6 = "a multiline string\nis useful to representi long text\nthat should be read by humans"
 print(s6)
 
 # f-string
 PI = 3.141592653589793
 radius = 5
 
-print(f"A circle with radius {radius} has area {PI * radius ** 2}")
+print(f"The area of a circle with radius {radius} is {PI * radius ** 2}")
 print(f"A pi approximation: {PI:.5f}")
