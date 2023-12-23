@@ -1,11 +1,11 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
 Module 3 - List
 
-Definition
+List definition
 """
 friends = ["bob", "tom", "kim"]
 

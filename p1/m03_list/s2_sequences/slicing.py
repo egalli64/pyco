@@ -1,13 +1,12 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
 Module 3 - List
 
-Slicing
+Sequences - slicing
 """
-
 # a list
 friends = ["bob", "tom", "kim", "abe", "luc"]
 print("friends:", friends)

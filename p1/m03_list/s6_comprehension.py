@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -16,7 +16,6 @@ print(dice)
 squares = []
 for i in range(1, 11):
     squares.append(i ** 2)
-
 print(squares)
 
 # list comprehension
