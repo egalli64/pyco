@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -24,8 +24,8 @@ greeting(name="Strange", title="Doctor")
 
 def greeting_keyword_only(*, title, name):
     """
-    A simple function with two parameters.
-    The argument can be passed only by keyword.
+    A simple function with two parameters
+    The argument can be passed only by keyword
     """
     print(f"Chop, chop, {title} {name}!")
 

@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -9,7 +9,7 @@ Definition and invocation
 """
 
 # NameError, can't invoke a function before its definition
-# greeter("Bob")
+# minimal_function()
 
 # defining two functions
 
