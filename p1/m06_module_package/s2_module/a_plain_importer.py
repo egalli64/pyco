@@ -1,16 +1,16 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
 Module 6 - Modules and Packages
 
-Import a module with alias
+Plain import of a module
 """
-import a_module as am
+import a_module
 
 # calling a function defined in the imported module
-am.greeting("Tom")
+a_module.greeting("Tom")
 
 # accessing a variable (constant) defined in the imported module
-print("The application name is", am.APPLICATION_NAME)
+print("The application name is", a_module.APPLICATION_NAME)

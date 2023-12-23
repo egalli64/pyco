@@ -1,20 +1,27 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
 Module 6 - Modules and Packages
 
-A module to be imported
+A "main" module
 """
+import other
+
 APPLICATION_NAME = "Skynet"
 
 
 def greeting(name):
     """A simple function"""
+
     print(f"Hello, {name}! I'm {APPLICATION_NAME}")
 
 
 if __name__ == "__main__":
-    print("This file shouldn't be run as a script")
-    greeting("Unknown")
+    name = input("What's your name? ")
+
+    greeting(name)
+    other.fun()
+
+    print("See you")

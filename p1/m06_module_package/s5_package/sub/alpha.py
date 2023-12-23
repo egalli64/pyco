@@ -1,11 +1,11 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
 Module 6 - Modules and Packages
 
-A module imports and is imported
+A module that imports and is imported
 """
 if __name__ == "sub.alpha":
     # the search path is on the package above
