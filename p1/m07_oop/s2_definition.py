@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -10,7 +10,7 @@ Class and object
 
 
 class Empty:
-    """Define an empty class"""
+    """Definition of an empty class"""
 
 
 # instantiate an object of the Empty class

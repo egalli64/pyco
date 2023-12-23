@@ -1,5 +1,5 @@
 """
-Python Course
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
@@ -10,7 +10,7 @@ Attributes and methods
 
 
 class Dog:
-    """Define a simple class"""
+    """Definition of a simple class"""
 
     def __init__(self, name):
         """Initialize the state of the current dog"""
