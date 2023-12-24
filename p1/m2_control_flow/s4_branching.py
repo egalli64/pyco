@@ -9,8 +9,10 @@ Branching
 """
 
 s = "Welcome To Pythonville"
+print(f"Checking string '{s}'")
 
-# stop printing if a blank is found
+# break
+print("Break as soon as a blank is found:", end=" ")
 for c in s:
     if c == " ":
         break
@@ -18,7 +20,20 @@ for c in s:
         print(c, end="")
 print()
 
-# skip blanks
+# break/else
+t = "WelcomeToPythonville"
+print("Break-else on blank (for a string with no blank):", end=" ")
+for c in t:
+    if c == " ":
+        break
+    else:
+        print(c, end="")
+else:
+    print(" - no blank detected in the string", end="")
+print()
+
+# continue
+print("Skip blanks (by continue):", end=" ")
 for c in s:
     if c == " ":
         continue
@@ -26,7 +41,8 @@ for c in s:
         print(c, end="")
 print()
 
-# skip blanks, without using continue
+# continue can often be easily avoided
+print("Skip blanks (no continue):", end=" ")
 for c in s:
     if c != " ":
         print(c, end="")
@@ -34,7 +50,9 @@ print()
 
 
 def print_first_word(s):
-    """A function that prints up to the first blank"""
+    """
+    A function that prints up to the first blank
+    """
     for c in s:
         if c == " ":
             return
@@ -42,5 +60,6 @@ def print_first_word(s):
             print(c, end="")
 
 
+print("Return as a blank is found:", end=" ")
 print_first_word(s)
 print()
