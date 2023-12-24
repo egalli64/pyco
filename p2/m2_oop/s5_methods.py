@@ -1,9 +1,9 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 10 - More on Object Oriented Programming 
+Module 2 - More on Object Oriented Programming 
 
 Methods
 """

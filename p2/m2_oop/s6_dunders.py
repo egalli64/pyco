@@ -1,15 +1,16 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 10 - More on Object Oriented Programming 
+Module 2 - More on Object Oriented Programming 
 
 Dunders
 """
+from collections.abc import Sized
 
 
-class Dog:
+class Dog(Sized):
     """A class with some commonly used dunder methods"""
 
     def __init__(self, *names):
