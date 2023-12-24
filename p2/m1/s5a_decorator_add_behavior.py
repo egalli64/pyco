@@ -1,16 +1,16 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 9 - More on functions
+Module 1 - More on functions
 
 Decorator (add behavior to decorated function)
 """
 
 
 def log_decorator(f):
-    """A decorator to log on request"""
+    """A decorator to add log before and after the calls to the decorated function"""
 
     def wrapper(*args, **kwargs):
         """The closure wraps the call to the decorated function"""
@@ -39,4 +39,5 @@ def multiplier(x, y):
 
 # calling the decorated functions
 print("The adding result is:", adder(23, 19))
+print("---")
 print("The multiplying result is:", multiplier(y=6, x=7))

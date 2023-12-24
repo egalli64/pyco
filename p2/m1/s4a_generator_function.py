@@ -1,28 +1,34 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 9 - More on functions
+Module 1 - More on functions
 
 Generator function
 """
 
 
 def countdown(n):
-    """A generator function"""
+    """A simple generator function"""
     while n > 0:
         yield n
         n -= 1
 
 
 # A generator
-it = countdown(5)
+gen = countdown(5)
 
 # Iterate over the generator
-for value in it:
-    print(value, end=" ")
+print("Countdown by generator:", end=" ")
+for cur in gen:
+    print(cur, end=" ")
 print()
+
+try:
+    gen.__next__()
+except StopIteration:
+    print("At the end the generator is exhausted")
 
 
 class CountdownIterator:
@@ -43,8 +49,7 @@ class CountdownIterator:
             raise StopIteration
 
 
-# an iterator
-it = CountdownIterator(5)
-for value in it:
-    print(value, end=" ")
+print("Countdown by iterator:", end=" ")
+for cur in CountdownIterator(5):
+    print(cur, end=" ")
 print()

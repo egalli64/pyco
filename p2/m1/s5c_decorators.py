@@ -1,9 +1,9 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 9 - More on functions
+Module 1 - More on functions
 
 Decorator - apply more than one decorator
 """

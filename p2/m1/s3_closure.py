@@ -1,9 +1,9 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 9 - More on functions
+Module 1 - More on functions
 
 Closure
 """
@@ -21,5 +21,7 @@ def adder(first):
 
 # Create an adder closure based on 12
 adder_12 = adder(12)
-print("Adding 30:", adder_12(30))
-print("Adding -7:", adder_12(-7))
+
+print("Passing different values to the 'adder 12' closure:")
+print("Argument 30:", adder_12(30))
+print("Argument -7:", adder_12(-7))
