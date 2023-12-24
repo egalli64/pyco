@@ -1,9 +1,9 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 12 - Design Pattern
+Module 4 - Design Pattern
 
 Singleton (by module)
 """

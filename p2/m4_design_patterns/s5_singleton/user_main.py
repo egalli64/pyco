@@ -1,14 +1,14 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 12 - Design Pattern
+Module 4 - Design Pattern
 
 Singleton (by module)
 """
 import singleton
-from singleton_user_other import singleton_increaser
+from user_other import singleton_increaser
 
 if __name__ == "__main__":
     singleton.value = 42
