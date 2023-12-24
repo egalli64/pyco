@@ -1,13 +1,14 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
 Log with print()
 
-From terminal, redirect the stderr stream to file with 2>
+From terminal, redirect the stderr stream to the log file
+    Ex: python script.py 2> script.log
 """
 import sys
 

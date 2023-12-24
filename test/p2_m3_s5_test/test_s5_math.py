@@ -9,7 +9,7 @@ The unittest module
 """
 import unittest
 
-from m11 import s5_math as m
+from p2.m3_log_test.s5_testing import s5a_math as m
 
 
 class TestMath(unittest.TestCase):

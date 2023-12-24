@@ -1,18 +1,18 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
-The unittest module
+The unittest module - assertEqual()
 """
 import unittest
-import s5_math as m
+import s5a_math as m
 
 
 class TestMathAdd(unittest.TestCase):
-    """Stress on readability"""
+    """A simple test case"""
 
     def test_add_plain(self):
         expected = 42

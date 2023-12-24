@@ -1,11 +1,13 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
 The unittest module
+
+A standalone test
 """
 import unittest
 

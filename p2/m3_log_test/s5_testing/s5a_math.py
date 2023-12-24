@@ -1,9 +1,9 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
 The unittest module - code to be tested
 """
@@ -22,3 +22,7 @@ def subtract(left, right):
 def floor_divide(left, right):
     """A floor divider"""
     return left // right
+
+
+if __name__ == "__main__":
+    print("See tests")

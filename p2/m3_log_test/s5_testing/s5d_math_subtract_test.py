@@ -1,18 +1,18 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
-The unittest module
+The unittest module - assertNotEqual(), assertAlmostEqual()
 """
 import unittest
-import s5_math as m
+import s5a_math as m
 
 
 class TestMathSubtract(unittest.TestCase):
-    """Stress on compactness"""
+    """Tests written in a compact way"""
 
     def test_subtract_plain(self):
         self.assertEqual(m.subtract(50, 8), 42)
@@ -22,7 +22,7 @@ class TestMathSubtract(unittest.TestCase):
         self.assertNotEqual(m.subtract(3.0, 2.1), 0.9)
 
     def test_subtract_close_enough(self):
-        """3.0 - 2.1 is very close to 0.9!"""
+        """3.0 - 2.1 is very close to 0.9"""
         self.assertAlmostEqual(m.subtract(3.0, 2.1), 0.9, places=15)
 
 

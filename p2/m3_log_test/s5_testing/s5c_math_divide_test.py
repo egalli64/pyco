@@ -1,14 +1,14 @@
 """
-Python Course
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 3 - Log and Test
 
-The unittest module
+The unittest module - assertRaises()
 """
 import unittest
-import s5_math as m
+import s5a_math as m
 
 
 class TestMathFloorDivide(unittest.TestCase):
@@ -18,9 +18,13 @@ class TestMathFloorDivide(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_divide_zero(self):
+        # the check is done implicity in __exit__, called by "with"
+        # if no exception is raised, the test fails
+        # otherwise the exception is stored in the context
         with self.assertRaises(ZeroDivisionError) as context:
             m.floor_divide(10, 0)
 
+        # if the exception has been raised, it is stored in the context
         self.assertEqual(str(context.exception), "integer division or modulo by zero")
 
 
