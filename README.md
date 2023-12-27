@@ -14,7 +14,8 @@ Developed on Python 3.12
 
 ## Part 2
 
-### 1 - More on function
-### 2 - More on Object Oriented Programming
-### 3 - Log and Test
-### 4 - Design Patterns
+### 1 - More on basic types
+### 2 - More on function
+### 3 - More on Object Oriented Programming
+### 4 - Log and Test
+### 5 - Design Patterns
