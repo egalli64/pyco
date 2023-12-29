@@ -14,7 +14,7 @@ Developed on Python 3.12
 
 ## Part 2
 
-### 1 - More (on) types
+### 1 - More fundamental concepts
 ### 2 - More on function
 ### 3 - More on Object Oriented Programming
 ### 4 - Log and Test

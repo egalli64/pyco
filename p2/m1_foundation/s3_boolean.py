@@ -3,7 +3,7 @@ Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 1 - More on types
+Module 1 - More fundamental concepts
 
 Boolean
 """
