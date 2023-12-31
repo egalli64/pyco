@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 6 - Sequence
 
-ABC - Abstract Base Class - collections abc Reversible
+ABC - Abstract Base Class - collections abc Collection
 """
 from collections import abc
 
