@@ -39,4 +39,6 @@ print()
 
 # complex
 z = 2.7 + 4.2j
-print(f"A complex {z} with type {type(z)}, has real {z.real} and imag {z.imag}")
+print(f"A complex {z} has type {type(z)}")
+print(f"Its real part is {z.real} and its imaginary part is {z.imag}")
+print("Its conjugate is", z.conjugate())
