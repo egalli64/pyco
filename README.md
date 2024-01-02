@@ -19,3 +19,4 @@ Developed on Python 3.12
 ### 3 - More on Object Oriented Programming
 ### 4 - Log and Test
 ### 5 - Design Patterns
+### 6 - Sequences
