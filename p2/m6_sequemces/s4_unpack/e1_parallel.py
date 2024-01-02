@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 6 - Sequence
 
-Packing and unpacking
+Unpacking
 Parallel assignment and swap
 """
 point = (53, 12)
