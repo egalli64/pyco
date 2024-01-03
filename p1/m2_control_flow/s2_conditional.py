@@ -37,7 +37,13 @@ elif value < 0.66:
 else:
     print("Close enough to 1.0:", value)
 
-
 # conditional expression
 description = "low" if value < 0.5 else "high"
 print("The value is", description)
+
+# using 'pass' as placeholder
+if value < 0.5:
+    print("Small value")
+else:
+    # should do something, but currently I don't know what
+    pass
