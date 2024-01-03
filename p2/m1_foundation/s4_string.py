@@ -11,8 +11,8 @@ s = "bob,kim,joe,tim"
 print("The string is:", s)
 
 # slice
-end = s.find(',')
-if(end != -1):
+end = s.find(",")
+if end != -1:
     print("The first friend is", s[:end])
 
 # split
@@ -26,3 +26,8 @@ print("The regenerated string is:", s2)
 # empty field in a csv row
 s = "bob,kim,,joe,tim"
 print(f"Da '{s}' a {s.split(',')}")
+
+# from int to string
+value = 42
+print("Decimal representation of value is", value)
+print(f"Binary {bin(value)}, octal {oct(value)}, hexadecimal {hex(value)}")
