@@ -29,5 +29,7 @@ print(f"Da '{s}' a {s.split(',')}")
 
 # from int to string
 value = 42
-print("Decimal representation of value is", value)
-print(f"Binary {bin(value)}, octal {oct(value)}, hexadecimal {hex(value)}")
+print("Integer are print using decimal representation:", value, type(value))
+value_as_str = str(value)
+print("Converting an int to str, decimal representation is used:", str(value_as_str), type(value_as_str))
+print(f"Using a different base: binary {bin(value)}, octal {oct(value)}, hexadecimal {hex(value)}")
