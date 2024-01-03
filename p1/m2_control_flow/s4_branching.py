@@ -48,6 +48,15 @@ for c in s:
         print(c, end="")
 print()
 
+print("Skip blanks (no continue /2):", end=" ")
+for c in s:
+    if c != " ":
+        print(c, end="")
+    else:
+        # placeholder, maybe I should do something if the current char is a blank?
+        pass
+print()
+
 
 def print_first_word(s):
     """
