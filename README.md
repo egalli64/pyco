@@ -57,6 +57,12 @@ Developed on Python 3.12
     Classes relation by issubclass()
     Object/class relation by isinstance()
 ### 8 - File
+    open() / close(), with
+    print(), write()
+    read(), readlines(), readline(), for - in
+    pathlib.Path
+    csv: writer() and reader()
+    csv: DictReader and DictWriter
 
 ## Part 2
 
