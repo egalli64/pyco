@@ -88,5 +88,10 @@ Developed on Python 3.12
     Method: instance, class, static
     Special methods: __init__(), ...
 ### 4 - Log and Test
+    Log: print() on stderr
+    logging: getLogger(), debug(), ..., basicConfig()
+    Unit Test
+    unittest: assertions, run tests by discover option
+    VS Code and unittest
 ### 5 - Design Patterns
 ### 6 - Sequences
