@@ -81,6 +81,12 @@ Developed on Python 3.12
     Decorator
     Namespace, scope
 ### 3 - More on Object Oriented Programming
+    Classes object and type
+    Multiple Inheritance: __bases__
+    Method Resolution Order: mro() and __mro__
+    Property: decoration for attribute
+    Method: instance, class, static
+    Special methods: __init__(), ...
 ### 4 - Log and Test
 ### 5 - Design Patterns
 ### 6 - Sequences
