@@ -42,7 +42,20 @@ Developed on Python 3.12
     Functional programming support
     Lambda expression as helper for map() and filter()
 ### 6 - Modules and Packages
+    Module: import, from, as
+    Module search path: sys.path, PYTHONPATH
+    Module __name__, __main__
+    Package, import module from package
 ### 7 - Object Oriented Programming
+    Class: header and body
+    Class body: docstring, attributes, methods
+    Object: constructor and initializer
+    Method: the self parameter
+    __init__: attributes definition
+    Dereferencing through the '.' dot operator
+    Inheritance, super(), override
+    Classes relation by issubclass()
+    Object/class relation by isinstance()
 ### 8 - File
 
 ## Part 2
