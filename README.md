@@ -67,6 +67,13 @@ Developed on Python 3.12
 ## Part 2
 
 ### 1 - More fundamental concepts
+    float: epsilon, min, max, inf, nan
+    complex: real, imag, conjugate()
+    chained comparison, implicit cast to boolean
+    conditional expressions by if-else, or, and
+    string: slice, split(), join(), int to str
+    zip() to create list
+    collections.namedtuple
 ### 2 - More on function
 ### 3 - More on Object Oriented Programming
 ### 4 - Log and Test
