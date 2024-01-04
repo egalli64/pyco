@@ -56,6 +56,11 @@ jim = Spaniel("Jim")
 jim.bark()
 jim.run()
 
-# check is-a relation by issubclass
-print("Is Spaniel a Dog?", issubclass(Spaniel, Dog))
-print("Is Spaniel a Poodle?", issubclass(Spaniel, Poodle))
+# check is-a relation between classed by issubclass
+print("Is Spaniel a subclass of Dog?", issubclass(Spaniel, Dog))
+print("Is Spaniel a subclass of Poodle?", issubclass(Spaniel, Poodle))
+
+# check is-a relation of an object by isinstance
+print("Is jim a Spaniel?", isinstance(jim, Spaniel))
+print("Is jim a Poodle?", isinstance(jim, Poodle))
+print("Is jim a Dog?", isinstance(jim, Dog))
