@@ -73,8 +73,9 @@ class CardHand:
     def __setitem__(self, i, value):
         self._hand[i] = value
 
-    def __str__(self):
-        return str(self._hand)
+    def __repr__(self):
+        return f"CardHand({self._hand})"
+
 
 hand = CardHand(cards[3::13])
 print(hand)
