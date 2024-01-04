@@ -22,6 +22,15 @@ Developed on Python 3.12
     List comprehension
     Tuple
 ### 4 - Dictionary and set
+    Dictionary as hash table based key/value mapping
+    Dictionary comprehension
+    Basic commands: get(), setdefault(), del, pop(), in
+    Loop on views by: items(), keys(), values()
+    Copy by: merge, update(), copy(), deepcopy()
+    Set as hash table for keys only
+    Set comprehension
+    Set editing: add(), update(), remove(), discard(), pop()
+    Using as mathematical set: union, difference, ...
 ### 5 - Function
 ### 6 - Modules and Packages
 ### 7 - Object Oriented Programming
