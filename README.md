@@ -94,4 +94,9 @@ Developed on Python 3.12
     unittest: assertions, run tests by discover option
     VS Code and unittest
 ### 5 - Design Patterns
+    Singleton
+    Factory Method
 ### 6 - Sequences
+    collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
+    Comprehension and generator
+    Unpacking on iterables
