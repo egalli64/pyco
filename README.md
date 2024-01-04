@@ -4,7 +4,16 @@ Developed on Python 3.12
 ## Part 1
 
 ### 1 - Fundamental concepts
+    Console IO: print() and input()
+    Variable, object, None
+    String
+    Numeric types: bool, int, float
+    Operators
 ### 2 - Control Flow
+    Conditional statements: if - elif - else
+    Conditional expression if - else
+    Loop: while and for statements
+    Jump by break, continue, return
 ### 3 - List
 ### 4 - Dictionary and set
 ### 5 - Function
