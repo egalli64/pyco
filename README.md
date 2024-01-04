@@ -15,6 +15,12 @@ Developed on Python 3.12
     Loop: while and for statements
     Jump by break, continue, return
 ### 3 - List
+    Sequence, iterable, index, in operator, slicing
+    List as mutable, resizable, heterogeneous array
+    Editing by append(), insert(), del, pop(), remove()
+    Oredering by sorted() and sort()
+    List comprehension
+    Tuple
 ### 4 - Dictionary and set
 ### 5 - Function
 ### 6 - Modules and Packages
