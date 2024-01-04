@@ -32,6 +32,15 @@ Developed on Python 3.12
     Set editing: add(), update(), remove(), discard(), pop()
     Using as mathematical set: union, difference, ...
 ### 5 - Function
+    Header and body, docstring, pass
+    Parameters and arguments
+    Passing an argument by position or by name
+    Default parameter value
+    Varargs and argument unpacking
+    Return value, or None
+    Using iterators
+    Functional programming support
+    Lambda expression as helper for map() and filter()
 ### 6 - Modules and Packages
 ### 7 - Object Oriented Programming
 ### 8 - File
