@@ -27,8 +27,14 @@ print(0x1234567890ABCDEF)
 f = 123_456.789e18
 print("f is", f, type(f))
 
+# bool to float
 f = float(flag)
 print("now f is", f)
 
+# int to float
 f = float(a)
 print("now f is", f)
+
+# initial zeroes in a literal float are skipped
+f = 04.2
+print("and now is", f)
