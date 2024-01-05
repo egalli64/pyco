@@ -16,7 +16,7 @@ Developed on Python 3.12
     Jump by break, continue, return
 ### 3 - List
     Sequence, iterable, index, in operator, slicing
-    List as mutable, resizable, heterogeneous array
+    List
     Editing by append(), insert(), del, pop(), remove()
     Oredering by sorted() and sort()
     List comprehension
@@ -30,11 +30,11 @@ Developed on Python 3.12
     Set as hash table for keys only
     Set comprehension
     Set editing: add(), update(), remove(), discard(), pop()
-    Using as mathematical set: union, difference, ...
+    Mathematical set: union, difference, ...
 ### 5 - Function
     Header and body, docstring, pass
     Parameters and arguments
-    Passing an argument by position or by name
+    Passing arguments by position and by name
     Default parameter value
     Varargs and argument unpacking
     Return value, or None
@@ -50,12 +50,13 @@ Developed on Python 3.12
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer
-    Method: the self parameter
-    __init__: attributes definition
-    Dereferencing through the '.' dot operator
+    Method: self
+    __init__
+    Dot '.' operator
     Inheritance, super(), override
     Classes relation by issubclass()
     Object/class relation by isinstance()
+    Exception: raise, try, catch
 ### 8 - File
     open() / close(), with
     print(), write()
@@ -70,9 +71,9 @@ Developed on Python 3.12
     float: epsilon, min, max, inf, nan
     complex: real, imag, conjugate()
     Chained comparison, implicit cast to boolean
-    Conditional expressions by if-else, or, and
+    Conditional expressions: if-else, or, and
     string: slice, split(), join(), int to str
-    zip() to create list
+    Create list by zip()
     collections.namedtuple
 ### 2 - More on function
     Inner function
@@ -84,14 +85,14 @@ Developed on Python 3.12
     Classes object and type
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
-    Property: decoration for attribute
+    Property
     Method: instance, class, static
     Special methods: __init__(), ...
 ### 4 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
     Unit Test
-    unittest: assertions, run tests by discover option
+    unittest: assertions, discover tests
     VS Code and unittest
 ### 5 - Design Patterns
     Singleton
