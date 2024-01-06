@@ -88,6 +88,7 @@ Developed on Python 3.12
     Special methods: __init__(), ...
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
+    Abstract class and @abstractmethod
 ### 4 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
