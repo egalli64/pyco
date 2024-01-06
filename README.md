@@ -83,11 +83,11 @@ Developed on Python 3.12
     Namespace, scope
 ### 3 - More on Object Oriented Programming
     Classes object and type
-    Multiple Inheritance: __bases__
-    Method Resolution Order: mro() and __mro__
-    Property
+    Attributes and properties
     Method: instance, class, static
     Special methods: __init__(), ...
+    Multiple Inheritance: __bases__
+    Method Resolution Order: mro() and __mro__
 ### 4 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
