@@ -17,8 +17,14 @@ class B:
     pass
 
 
+class C(B):
+    pass
+
+
+print(f"The {object.__name__} base class is {object.__base__}")
 print(f"The {A.__name__} base class is {A.__base__}")
 print(f"The {B.__name__} base class is {B.__base__}")
+print(f"The {C.__name__} base class is {C.__base__}")
 
 print("\n*** The object attributes:")
 for cur in dir(object):
