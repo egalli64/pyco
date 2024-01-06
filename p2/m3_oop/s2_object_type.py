@@ -36,3 +36,9 @@ print(f"{type.__name__}, that extends {type.__base__}, is callable?", callable(t
 print("*** The type attributes:")
 for cur in dir(type):
     print(cur)
+
+x = C()
+print("Is x an object of class C?", isinstance(x, C))
+print("Is x an object of class B?", isinstance(x, B))
+print("Is x an object of class A?", isinstance(x, A))
+print("Is x an object of class object?", isinstance(x, object))
