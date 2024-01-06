@@ -89,16 +89,16 @@ Developed on Python 3.12
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
     Abstract class and @abstractmethod
-### 4 - Log and Test
+### 4 - Sequences
+    collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
+    Comprehension and generator
+    Unpacking on iterables
+### 5 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
     Unit Test
     unittest: assertions, discover tests
     VS Code and unittest
-### 5 - Design Patterns
+### 6 - Design Patterns
     Singleton
     Factory Method
-### 6 - Sequences
-    collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
-    Comprehension and generator
-    Unpacking on iterables
