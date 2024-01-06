@@ -19,8 +19,9 @@ class A:
 
     def __init__(self):
         # an instance attribute - bad idea, I'm hiding the class attribute x
+        # access to the class attribute both properly (by class reference) and confusingly (by self reference)
         # notice that there is no direct access to class or instance attributes
-        self.x = A.y * 2
+        self.x = A.y + self.y
 
 
 print(f"Two class attributes in class A: {A.x}, {A.y}")
