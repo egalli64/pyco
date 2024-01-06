@@ -10,7 +10,7 @@ Attributes and properties
 
 
 class A:
-    """A simple class"""
+    # No docstring - bad idea, give the reader an idea of what this class is for
 
     # two class attributes
     x = 12
@@ -19,11 +19,12 @@ class A:
 
     def __init__(self):
         # an instance attribute - bad idea, I'm hiding the class attribute x
-        # notice that there is no direct access to the class attributes
+        # notice that there is no direct access to class or instance attributes
         self.x = A.y * 2
 
 
 print(f"Two class attributes in class A: {A.x}, {A.y}")
+print("The class A docstring is:", A.__doc__)
 
 a = A()
 print(f"An instance attribute in object a: {a.x}")
@@ -55,6 +56,8 @@ class B:
         """A calculated property"""
         return self._internal_detail + self.__more_internal_detail
 
+
+print("The class B docstring is:", B.__doc__)
 
 b = B()
 
