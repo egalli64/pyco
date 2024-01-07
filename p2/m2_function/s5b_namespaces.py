@@ -7,7 +7,7 @@ Module 2 - More on functions
 
 Namespaces
 """
-import s6a_module as m
+import s5a_module as m
 
 # x defined in the current global scope
 x = 42
