@@ -78,7 +78,6 @@ Developed on Python 3.12
 ### 2 - More on function
     Inner function
     Closure
-    Generator: yield, next(), comprehension
     Decorator
     Namespace, scope
 ### 3 - More on Object Oriented Programming
@@ -90,8 +89,10 @@ Developed on Python 3.12
     Method Resolution Order: mro() and __mro__
     Abstract class and @abstractmethod
 ### 4 - Sequences
+    Iterables and iterators: __getitem__, __iter__, __next__
+    Generator: yield, comprehension
     collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
-    Comprehension and generator
+    Comprehension and generator for sequence definition
     Unpacking on iterables
 ### 5 - Log and Test
     Log: print() on stderr
