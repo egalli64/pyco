@@ -3,7 +3,7 @@ Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 2 - More on functions
+Module 4 - Sequence
 
 Generator function
 """
@@ -18,6 +18,7 @@ def countdown(n):
 
 # A generator
 gen = countdown(5)
+print("Calling the function generator we get:", gen)
 
 # Iterate over the generator
 print("Countdown by generator:", end=" ")
@@ -26,7 +27,7 @@ for cur in gen:
 print()
 
 try:
-    gen.__next__()
+    next(gen)
 except StopIteration:
     print("At the end the generator is exhausted")
 
