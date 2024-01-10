@@ -46,7 +46,7 @@ print("An object:", bob)
 print(f"Calling {type(bob.bark)} bob.bark():", end=" ")
 bob.bark()
 
-print(f"Calling bark() on another object:", end=" ")
+print("Calling bark() on another object:", end=" ")
 Dog("tom").bark()
 
 print(f"Calling {type(Dog.check)} Dog.check():", end=" ")
