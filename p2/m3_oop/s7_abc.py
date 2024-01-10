@@ -7,7 +7,7 @@ Module 3 - More on Object Oriented Programming
 
 Abstract Base Classes and abstract methods
 """
-from abc import ABC, abstractmethod, ABCMeta
+from abc import ABC, abstractmethod
 
 
 class Minimal(ABC):
