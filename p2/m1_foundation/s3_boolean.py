@@ -26,7 +26,7 @@ print()
 
 # boolean cast
 for cur in a, b:
-    if cur == False:
+    if not cur:
         print("Zero is False:", a)
     else:
         print("Any other number is not False:", b)
@@ -35,7 +35,7 @@ if 1 == True:
     print("One is True")
 
 two = 2
-if two != True and two != False:
+if two is not True and two is not False:
     print("Two (and every other non-zero number) is not True nor False!")
 
 if two:
