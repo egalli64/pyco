@@ -18,8 +18,8 @@ if x is None:
     print("The object referenced by x is None")
 
 # this works too, but checking the id is more robust and clean
-if x == None:
-    print("The comparison of x against None succeed")
+# if x == None:
+#    print("The comparison of x against None succeed")
 
 y = None
 if x == y and x is y:
