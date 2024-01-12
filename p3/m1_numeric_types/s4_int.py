@@ -7,10 +7,14 @@ Module 1 - Numeric Types
 
 int
 """
+# a large integer
+x = 2**1_000
+print(f"A value of type {type(x)} could be very large: {x}\n")
+
 # non-decimal representations
-print("the binary number 0b10 has decimal representation", 0b10)
-print("the octal number 0o12345670 has decimal representation", 0o12345670)
-print("the hexadecimal number 0x1234567890ABCDEF has decimal representation", end=" ")
+print("The binary number 0b10 has decimal representation", 0b10)
+print("The octal number 0o12345670 has decimal representation", 0o12345670)
+print("The hexadecimal number 0x1234567890ABCDEF has decimal representation", end=" ")
 print(0x1234567890ABCDEF)
 print()
 
