@@ -3,7 +3,7 @@ Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 1 - Types
+Module 1 - Numeric Types
 
 The Number hierarchy
 """
