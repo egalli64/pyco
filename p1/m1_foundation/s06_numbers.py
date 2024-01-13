@@ -34,7 +34,3 @@ print("now f is", f)
 # int to float
 f = float(a)
 print("now f is", f)
-
-# initial zeroes in a literal float are skipped
-f = 04.2
-print("and now is", f)
