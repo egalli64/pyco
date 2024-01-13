@@ -103,3 +103,10 @@ Developed on Python 3.12
 ### 6 - Design Patterns
     Singleton
     Factory Method
+
+## Part 3
+
+### 1 - Numbers
+    The Number hierarchy
+    Builtin numeric types: bool, int, float, complex
+    Some builtin numeric functions
