@@ -41,13 +41,19 @@ except ZeroDivisionError as ex:
 finally:
     print()
 
+# modulo
+a = 48
+print(f"{a} % {b} is", a % b)
+print(f"{-a} % {b} is", -a % b)
+
+# modulo by zero
+try:
+    print(a % 0)
+except ZeroDivisionError as ex:
+    print(ex)
+finally:
+    print()
+
 # power
 print(f"{a} ** {b} is", a**b)
-print(f"pow({a}, {b}) is", pow(a, b))
 print()
-
-# division and module
-a = 48
-print(f"{a} // {b} is", a // b)
-print(f"{a} % {b} is", a % b)
-print(f"divmod({a}, {b}) is", divmod(a, b))
