@@ -17,5 +17,5 @@ def raiser():
 try:
     expected_result = raiser()
     print("I expected to get something in", expected_result)
-except NotImplementedError:
-    print("Someone raised an exception")
+except NotImplementedError as ex:
+    print("Exception:", ex)
