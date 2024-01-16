@@ -10,15 +10,14 @@ The namedtuple() factory
 from collections import namedtuple
 
 # create the Point class, subclassing tuple
-Point = namedtuple("Point", "x y")
+# Point = namedtuple("Point", "x y")
 
 # alternative way to pass the attributes to the factory
-# Point = namedtuple("Point", ("x", "y"))
+Point = namedtuple("Point", ("x", "y"))
 
 # a Point is-a tuple too
 a = Point(1, 2)
-print(isinstance(a, Point))
-print(isinstance(a, tuple))
+print(issubclass(Point, tuple))
 
 # accessing the attributes
 print(a.x, a.y)
