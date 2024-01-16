@@ -7,7 +7,7 @@ Module 8 - File
 
 Read
 """
-FRIENDS_FILENAME = "friends.txt"
+FRIENDS_FILENAME = "p1/m8_file/friends.txt"
 
 # open file implicitly in read-text mode
 with open(FRIENDS_FILENAME) as f:
@@ -25,31 +25,25 @@ with open(FRIENDS_FILENAME) as f:
 
 for line in lines:
     print(line, end="")
-print("---")
+print("---\n")
 
 with open(FRIENDS_FILENAME) as f:
     print("Read from file (by chunk):")
-    while True:
-        # read just 6 characters (or less) each time
-        content = f.read(6)
-        if content:
-            print(content)
-            print("---")
-        else:
-            break
+
+    # read just 6 characters (or less) each time
+    while content := f.read(6):
+        print(content, end="")
+        print("---")
+    print("done!\n")
 
 with open(FRIENDS_FILENAME) as f:
     print("Read from file (by line):")
-    while True:
+    while line := f.readline():
         # readline do not strip the tailing newline
-        line = f.readline()
-        if line:
-            print(line, end="")
-        else:
-            break
-print("---")
+        print(line, end="")
+print("---\n")
 
 with open(FRIENDS_FILENAME) as f:
     print("Read from file (by line - implicit form):")
     for line in f:
-        print(line, end='')
+        print(line, end="")
