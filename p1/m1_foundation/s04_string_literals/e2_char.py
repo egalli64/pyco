@@ -6,21 +6,10 @@ https://github.com/egalli64/pyco
 Module 1 - Fundamental concepts
 
 String literals
+Single char
 """
-
-s1 = 'a string'
-print(type(s1), s1)
-
-s2 = "another string"
-print(type(s2), s2)
-
-s3 = """a multiline string
-is useful to represent a long text
-that should be read by humans"""
-print(type(s3), s3)
-
 # a Python char is a string sized 1
-s4 = 'x'
+s4 = "x"
 print(type(s4), s4)
 
 # get the Unicode code point representation of a char
@@ -33,12 +22,5 @@ s5 = chr(code_grin)
 print("A Unicode code and its associated character:", hex(code_grin), s5)
 
 # escape sequences
-s6 = "a multiline string\nis useful to representi long text\nthat should be read by humans"
+s6 = "a multiline string\nis 'useful' to represent \"long\" text\nthat should be read by humans"
 print(s6)
-
-# f-string
-PI = 3.141592653589793
-radius = 5
-
-print(f"The area of a circle with radius {radius} is {PI * radius ** 2}")
-print(f"A pi approximation: {PI:.5f}")
