@@ -24,6 +24,11 @@ print(f"The smallest representable positive float is {sys.float_info.min}")
 print(f"The largest representable positive float is {sys.float_info.max}")
 print()
 
+# close enough?
+g = math.pi + 0.000_000_003
+print(f"Is {math.pi} close (default) to {g}?", math.isclose(math.pi, g))
+print()
+
 # infinite
 too_big_pos = sys.float_info.max * 2
 too_big_neg = sys.float_info.max * -2
