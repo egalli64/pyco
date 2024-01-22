@@ -23,11 +23,9 @@ except TypeError as ex:
 
 # lists are mutable sequences, do support del on their elements
 del lis[2]
-print("After del on the mutable sequence:", lis)
+print(f"After del on the mutable sequence: {lis}\n")
 
-del lis[42]
-
-# be careful with index value!
+print("Be careful with index value:", end=" ")
 try:
     del lis[42]
 except IndexError as ex:
