@@ -3,7 +3,7 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 3 - List
+Module 4 - List
 
 List definition
 """
@@ -17,8 +17,3 @@ print(f"The first friend is '{first}'")
 
 last = friends[-1]
 print(f"The last friend is '{last}'")
-
-try:
-    print(friends[42])
-except IndexError:
-    print("There is not an element with the passed index!")
