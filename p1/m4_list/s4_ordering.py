@@ -3,22 +3,25 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 3 - List
+Module 4 - List
 
 Ordering
 """
 import random
 
 friends = ["bobby", "ann", "kim", "li", "luc"]
-print("Friends:", friends)
+print(f"Friends: {friends}\n")
 
-# generate a new list, sorted copy of the original one
+# generate new lists, sorted copies of the original one
 sorted_friends = sorted(friends)
 print("Sorted friends:", sorted_friends)
-print("The original list:", friends)
+
+reverse_sorted = sorted(friends, reverse=True)
+print("Reversed sorted friends:", reverse_sorted)
 
 sorted_friends = sorted(friends, key=len)
 print("Friends sorted by len:", sorted_friends)
+print(f"The original list: {friends}\n")
 
 # sorting in-place
 friends.sort()
