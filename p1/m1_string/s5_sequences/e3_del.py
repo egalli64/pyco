@@ -24,3 +24,11 @@ except TypeError as ex:
 # lists are mutable sequences, do support del on their elements
 del lis[2]
 print("After del on the mutable sequence:", lis)
+
+del lis[42]
+
+# be careful with index value!
+try:
+    del lis[42]
+except IndexError as ex:
+    print(ex)
