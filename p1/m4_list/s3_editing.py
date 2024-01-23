@@ -21,6 +21,12 @@ print("Insert at 3:", friends)
 friends.extend(("ada", "ben", "cho"))
 print("Extended:", friends)
 
+# concatenation among different types doesn't compile
+# friends = friends + ("dean", "emma", "fin")
+# augmented concatenated assignment works alright
+friends += "dean", "emma", "fin"
+print("Extended by concatenation:", friends)
+
 # pop the second element from the end
 del friends[-2]
 print("After del at -2:", friends)
@@ -46,6 +52,7 @@ friends.remove("abe")
 print("After removing abe:", friends)
 
 try:
+    print("Trying to remove 'abe' a second time ...", end=" ")
     friends.remove("abe")
 except ValueError as ex:
-    print("_'x' stands for 'abe' in the following message_", ex)
+    print(ex, "... where x stands for 'abe'")
