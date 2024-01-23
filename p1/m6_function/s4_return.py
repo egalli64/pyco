@@ -3,7 +3,7 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 5 - Function
+Module 6 - Function
 
 Return value
 """
