@@ -3,7 +3,7 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 6 - Modules and Packages
+Module 7 - Modules and Packages
 
 Module search path
 """
