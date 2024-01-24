@@ -1,27 +1,38 @@
 # pyco - Python course
 Developed on Python 3.12
 
-## Part 1
+## Part 1 - Fundamental concepts
 
-### 1 - Fundamental concepts
+### 1 - Data types: string
     Console IO: print() and input()
     Variable, object, None
-    String
-    Numeric types: bool, int, float
-    Operators
-### 2 - Control Flow
+    Literal string, f-string
+    Iterable and iterator
+    Sequence: operators, statements, builtin functions, and methods
+    Slicing on sequences
+    String methods
+### 2 - Numeric types
+    bool, int, float
+    Cast to a numeric type
+    Arithmetic operators
+    Assignment operators
+    Precedence and associativity
+    Relational operators
+    Logical operators
+### 3 - Control Flow
+    Compound instructions, indentation, pass
     Conditional statements: if - elif - else
-    Conditional expression if - else
-    Loop: while and for statements
-    Jump by break, continue, return
-### 3 - List
-    Sequence, iterable, index, in operator, slicing
+    Conditional expression: if - else
+    While loop
+    For loop - the range() builtin function
+    Jump in loop: break, continue, return
+### 4 - List and tuple
     List
-    Editing by append(), insert(), del, pop(), remove()
-    Oredering by sorted() and sort()
+    Editing by methods and statement del
+    Oredering by builtin sorted() and method sort()
     List comprehension
     Tuple
-### 4 - Dictionary and set
+### 5 - Dictionary and set
     Dictionary as hash table based key/value mapping
     Dictionary comprehension
     Basic commands: get(), setdefault(), del, pop(), in
@@ -31,7 +42,7 @@ Developed on Python 3.12
     Set comprehension
     Set editing: add(), update(), remove(), discard(), pop()
     Mathematical set: union, difference, ...
-### 5 - Function
+### 6 - Function
     Header and body, docstring, pass
     Parameters and arguments
     Passing arguments by position and by name
@@ -41,12 +52,12 @@ Developed on Python 3.12
     Using iterators
     Functional programming support
     Lambda expression as helper for map() and filter()
-### 6 - Modules and Packages
+### 7 - Modules and Packages
     Module: import, from, as
     Module search path: sys.path, PYTHONPATH
     Module __name__, __main__
     Package, import module from package
-### 7 - Object Oriented Programming
+### 8 - Object Oriented Programming
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer
@@ -57,7 +68,7 @@ Developed on Python 3.12
     Classes relation by issubclass()
     Object/class relation by isinstance()
     Exception: raise, try, catch
-### 8 - File
+### 9 - File
     open() / close(), with
     print(), write()
     read(), readlines(), readline(), for - in
