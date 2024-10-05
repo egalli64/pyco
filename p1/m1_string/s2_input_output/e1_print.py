@@ -8,18 +8,20 @@ Module 1 - Strings and variables
 Input and output
 Print to standard output
 """
-# print a single string to the console
-print("Hello, Python")
 
-# print more arguments
-print("Hello", "Python")
+# 1. plain print
+print("This is a single string: Hello, Python!")
 
-# use an underscore as separator
-print("Hello", "Python", sep="_")
+# 2. print more arguments
+print("First argument", "Second argument")
 
-# do not add a newline at the end of each print
-print("Hello", end="")
-print("Python", end="")
+# 3. use a give separator between arguments
+print("First argument", "Second argument", sep="_")
 
-# print just a newline
+# 4. by default the termination ("end") is a newline
+# Get rid of it
+print("Hello, ", end="")
+print("Python!", end="")
+
+# 5. print just a newline
 print()
