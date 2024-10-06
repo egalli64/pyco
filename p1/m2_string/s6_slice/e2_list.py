@@ -3,7 +3,7 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 1 - Strings and variables
+Module 2 - String
 
 Sequences - slice on list
 """
