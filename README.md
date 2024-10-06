@@ -3,15 +3,19 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
 
 ## Part 1 - Fundamental concepts
 
-### 1 - Data types: string
-    Console IO: print() and input()
+### 1 - Foundation
+    IO: print() and input()
+    Variables
+    Objects and types
+    Dynamic typing and None
+### 2 - Data types: string
     Variable, object, None
     Literal string, f-string
     Iterable and iterator
     Sequence: operators, statements, builtin functions, and methods
     Slicing on sequences
     String methods
-### 2 - Numeric types
+### 3 - Numeric types
     bool, int, float
     Cast to a numeric type
     Arithmetic operators
@@ -19,20 +23,23 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Precedence and associativity
     Relational operators
     Logical operators
-### 3 - Control Flow
+
+## Part 2
+
+### 1 - Control Flow
     Compound instructions, indentation, pass
     Conditional statements: if - elif - else
     Conditional expression: if - else
     While loop
     For loop - the range() builtin function
     Jump in loop: break, continue, return
-### 4 - List and tuple
+### 2 - List and tuple
     List
     Editing by methods and statement del
     Oredering by builtin sorted() and method sort()
     List comprehension
     Tuple
-### 5 - Dictionary and set
+### 3 - Dictionary and set
     Dictionary as hash table based key/value mapping
     Dictionary comprehension
     Basic commands: get(), setdefault(), del, pop(), in
@@ -42,7 +49,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Set comprehension
     Set editing: add(), update(), remove(), discard(), pop()
     Mathematical set: union, difference, ...
-### 6 - Function
+### 4 - Function
     Header and body, docstring, pass
     Parameters and arguments
     Passing arguments by position and by name
@@ -52,12 +59,12 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Using iterators
     Functional programming support
     Lambda expression as helper for map() and filter()
-### 7 - Modules and Packages
+### 5 - Modules and Packages
     Module: import, from, as
     Module search path: sys.path, PYTHONPATH
     Module __name__, __main__
     Package, import module from package
-### 8 - Object Oriented Programming
+### 6 - Object Oriented Programming
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer
@@ -68,7 +75,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Classes relation by issubclass()
     Object/class relation by isinstance()
     Exception: raise, try, catch
-### 9 - File
+### 7 - File
     open() / close(), with
     print(), write()
     read(), readlines(), readline(), for - in
@@ -76,7 +83,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     csv: writer() and reader()
     csv: DictReader and DictWriter
 
-## Part 2
+## Part 3
 
 ### 1 - More fundamental concepts
     float: epsilon, min, max, inf, nan
@@ -115,7 +122,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Singleton
     Factory Method
 
-## Part 3
+## Part 4
 
 ### 1 - Numbers
     The Number hierarchy
