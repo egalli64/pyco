@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Sequences - del statement
+Mutable sequence - del statement
 """
 
 # a string is a sequence

@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Sequences - the built-in len()
+Sequence - the built-in len()
 """
 
 # all sequences support len()

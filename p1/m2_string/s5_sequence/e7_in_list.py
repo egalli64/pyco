@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Sequences - in operator for list
+Sequence - in operator for list
 """
 
 # a list is a sequence, too

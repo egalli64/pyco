@@ -5,18 +5,18 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Sequences - index() on list
+Sequence - index()
 """
 
-# a list is a sequence, too
-lis = ["bob", "tom", "kim", "tim"]
-print("A list:", lis, end="\n\n")
+# a string is a sequence
+str = "welcome to Python's world"
+print("A string:", str, end="\n\n")
 
-# looking for a value in a list
-for target in {"tim", "zoe"}:
+# looking for a substring in a string
+for target in ("w", "wa"):
     print("Searching for", target, end=" ... ")
     try:
-        pos = lis.index(target)
+        pos = str.index(target)
         print("found at", pos)
     except ValueError as ex:
         print(ex)

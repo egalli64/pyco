@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Sequences - the operator []
+Sequence - the operator []
 """
 
 # a string is a sequence
