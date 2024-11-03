@@ -7,46 +7,41 @@ Module 2 - String
 
 Sequences - slice on string
 """
+
 # a string
 name = "slartibartfast"
 print("A string:", name)
 print()
 
-# 'normal'
-print("'Normal' slice [1..4):", end=" ")
+# Giving slice start and stop: -lar--...
+print("Plain slice [1..4):", end=" ")
 print(name[1:4])
 
-# header
-print("First three chars:", end=" ")
+# Giving only slice stop: sla--
+print("Implicit start from zero [0..3):", end=" ")
 print(name[:3])
 
-# rest
-print("After the first three:", end=" ")
+# Giving only slice start: ---rti...
+print("Implicit stop to the end [3..len(name)]:", end=" ")
 print(name[3:])
 
-# tail
-print("The last three:", end=" ")
+# Giving only slice start (negative): ...--ast
+print("Implicit stop to the end, negative start: [-3..len(name)]", end=" ")
 print(name[-3:])
 
-# skip every second char
-print("Alternate from first:", end=" ")
+# Giving only the step, start from end tsaf...
+print("Implicit start/stop, reverse the string:", end=" ")
+print(name[::-1])
+
+# Giving only the step, skip every second char s-a-t-...
+print("Implicit start/stop, alternate from first:", end=" ")
 print(name[::2])
 
-# skip every first char
-print("Alternate from second:", end=" ")
+# Giving start and step, skip every first char -l-r-i...
+print("Implicit stop, alternate from second:", end=" ")
 print(name[1::2])
 
-# no exception on slicing
+# No exception on slicing
 print("Wrong interval, empty slice:", end=" ")
 print(f"'{name[42:18]}'")
 print()
-
-# alias - different variables, same object
-name2 = name
-if name is name2 and name == name2:
-    print("Alias: the object is the same")
-
-# object copy could be optimized out by the Python compiler!
-name2 = name[:]
-if name is name2 and name == name2:
-    print("Copy: could be the same object!")
