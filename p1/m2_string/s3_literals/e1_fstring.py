@@ -15,6 +15,9 @@ radius = 5
 # referring to variable / expression in a f-string
 print(f"The area of a circle with radius {radius} is {PI * radius ** 2}")
 
+# to print a curly brace in a f-string, just double it
+print(f"This is an open curly brace '{{' and this is a close one '}}'")
+
 # real number formatting
 print(f"A pi approximation: {PI:.5f}")
 
