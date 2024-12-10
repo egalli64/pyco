@@ -13,13 +13,13 @@ import random
 value = random.random()
 print(f"Executing different statements accordingly to the random value {value}\n")
 
-print("* First step (if)")
+print("* 1. check if value is bigger than 0.5")
 
 # do nothing if condition is False
 if value > 0.5:
     print("Close enough to 1")
 
-print("* Second step (if - else)")
+print("* 2. check if in (0.25 .. 0.75), or else")
 
 # one choice or the other
 print("The value", end=" ")
@@ -28,18 +28,18 @@ if value > 0.25 and value < 0.75:
 else:
     print("is too far away from 0.5")
 
-print("* Third step (if - elif - else)")
+print("* 3. check if less then 1/3, elif less then 2/3, or else")
 
 # one of the three block will be executed
 if value < 0.33:
-    print("Close enough to 0.0:", value)
+    print("Close enough to 0.0:")
 elif value < 0.66:
-    print("Close enough to 0.5:", value)
+    print("Close enough to 0.5:")
 else:
-    print("Close enough to 1.0:", value)
-print()
+    print("Close enough to 1.0:")
 
 # using 'pass' as placeholder
+print("* 4. check if less than 1/2, else pass")
 if value < 0.5:
     print("Small value")
 else:
