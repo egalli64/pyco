@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 3 - Control Flow
+Module 1 - Control Flow
 
 Alterate / terminate a loop
 The return statement
