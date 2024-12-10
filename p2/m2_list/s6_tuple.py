@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 4 - List
+Module 2 - List
 
 Tuple
 """
