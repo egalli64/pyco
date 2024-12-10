@@ -7,20 +7,17 @@ Module 2 - List
 
 Ordering
 """
+
 import random
 
 friends = ["bobby", "ann", "kim", "li", "luc"]
 print(f"Friends: {friends}\n")
 
 # generate new lists, sorted copies of the original one
-sorted_friends = sorted(friends)
-print("Sorted friends:", sorted_friends)
+print("Sorted friends:", sorted(friends))
+print("Reversed sorted friends:", sorted(friends, reverse=True))
+print("Friends sorted by len:", sorted(friends, key=len))
 
-reverse_sorted = sorted(friends, reverse=True)
-print("Reversed sorted friends:", reverse_sorted)
-
-sorted_friends = sorted(friends, key=len)
-print("Friends sorted by len:", sorted_friends)
 print(f"The original list: {friends}\n")
 
 # sorting in-place
@@ -33,4 +30,8 @@ print("In-place reverse sorting by len:", friends)
 
 # shuffling
 random.shuffle(friends)
-print("Shuffled", friends)
+print("Shuffled:", friends)
+
+# reverse the order
+friends.reverse()
+print("Reversed:", friends)
