@@ -1,19 +1,19 @@
 """
-Python Course - Part 1
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 4 - List
+Module 2 - List
 
-List definition
+A list is a mutable sequence
 """
 friends = ["bob", "tom", "kim"]
 
 print("A list:", friends)
-print("The list length is", len(friends))
 
-first = friends[0]
-print(f"The first friend is '{first}'")
+# it could be passed to the built-in functions expecting a size object
+print("Its length is", len(friends))
 
-last = friends[-1]
-print(f"The last friend is '{last}'")
+# its elements could be accessed by index (zero based)
+print("Its first element is", friends[0])
+print("Its last element is", friends[-1])
