@@ -20,6 +20,13 @@ if 7 in even_squared:
 if 10 not in even_squared:
     print("10 is not in it")
 
+# checking if a dictionary is not empty
+if even_squared:
+    print("The dictionary is not empty")
+
+if not {}:
+    print("An empty dictionary is False in boolean context")
+
 # access a value by square brackets
 print("The value associated to 7 is:", even_squared[7])
 
