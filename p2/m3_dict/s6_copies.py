@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 3 - Dictionary
 
-Dictionary: copy in different ways
+Copy in different ways
 """
 from copy import deepcopy
 
