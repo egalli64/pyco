@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 5 - Dictionary and set
+Module 3 - Dictionary
 
 Dictionary
 """

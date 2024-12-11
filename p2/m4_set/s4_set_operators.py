@@ -3,7 +3,7 @@ Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 5 - Dictionary and set
+Module 4 - Set
 
 Set operators
 """
