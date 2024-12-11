@@ -5,57 +5,64 @@ https://github.com/egalli64/pyco
 
 Module 3 - Dictionary
 
-Dictionary: views, looping
+Views
 """
+# a dictionary
 friends = {"kim": 1284, "bob": 4423, "tom": 1284, "jim": 1299}
 
 print("The dictionary:", friends)
+
+# its items
 print("As list of tuples:", friends.items())
+
+# its keys
 print("The keys:", friends.keys())
+
+# its values
 print("The values:", friends.values())
 print("---")
 
-print("All the pairs:")
+print("Each pair:")
 for key, value in friends.items():
     print(f"{key}, {value}")
 print("---")
 
-print("All the keys:")
+print("Each key:")
 for key in friends.keys():
     print(key)
 print("---")
 
-print("All the keys (implicit):")
+print("Each key (implicit):")
 for key in friends:
     print(key)
 print("---")
 
-print("All the values:")
+print("Each value:")
 for value in friends.values():
     print(value)
 print("---")
 
-print("All the keys (sorted):")
+print("Each key (sorted):")
 for key in sorted(friends.keys()):
     print(key)
 print("---")
 
-print("All the values (sorted):")
+print("Each value (sorted):")
 for value in sorted(friends.values()):
     print(value)
 print("---")
 
-print("All the pairs (sorted):")
+print("Each pair (sorted):")
 for key, value in sorted(friends.items()):
     print(f"{key}, {value}")
 print("---")
 
-print("All the values (no duplicates):")
+print("Each value (no duplicates):")
 for value in set(friends.values()):
     print(value)
 print("---")
 
-print("All the values (no duplicates, sorted):")
+print("Each value (no duplicates, sorted):")
 for value in sorted(set(friends.values())):
     print(value)
 print("---")
