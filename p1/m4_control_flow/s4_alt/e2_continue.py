@@ -1,9 +1,9 @@
 """
-Python Course - Part 2
+Python Course - Part 1
 
 https://github.com/egalli64/pyco
 
-Module 1 - Control Flow
+Module 4 - Control Flow
 
 Alterate / terminate a loop
 The continue statement
