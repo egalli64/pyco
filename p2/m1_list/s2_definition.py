@@ -3,10 +3,11 @@ Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 2 - List
+Module 1 - List
 
 A list is a mutable sequence
 """
+# literal definition
 friends = ["bob", "tom", "kim"]
 
 print("A list:", friends)

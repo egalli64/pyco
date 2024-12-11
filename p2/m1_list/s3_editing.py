@@ -3,7 +3,7 @@ Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 2 - List
+Module 1 - List
 
 List methods for editing
 """
