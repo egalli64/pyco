@@ -3,9 +3,9 @@ Python Course - Part 2
 
 https://github.com/egalli64/pyco
 
-Module 2 - List
+Module 2 - Tuple
 
-Tuple
+Literal definition
 """
 
 # a tuple
@@ -28,7 +28,3 @@ print("A tuple with a single element:", best_friend)
 # assign a new tuple
 best_friend = ("tim",)
 print("tuples are immutable, but a variable can be reassigned:", best_friend)
-
-# tuple comprehension
-squared_evens = tuple(x**2 for x in range(10) if x % 2 == 0)
-print("Not really a comprehension, but close enough:", squared_evens)
