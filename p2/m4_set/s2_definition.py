@@ -20,7 +20,7 @@ print("This is _not_ a set:", dict, type(dict))
 enemies = set()
 print("An empty set by constructor:", enemies, type(enemies))
 
-# a set by constructor, getting as input an iterable of seven strings, with one duplicated "e"
+# a set by constructor, getting as input an iterable of seven strings, with duplicated "e"s
 letters = set("emanuele")
 print("A set from an iterable:", letters)
 
