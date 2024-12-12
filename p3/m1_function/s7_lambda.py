@@ -1,14 +1,16 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 6 - Function
+Module 1 - Function
 
 Lambda
 """
+
 xs = [1, 2, 3, 4, 5]
 print("The orginal values", xs)
+
 
 # mapping
 
@@ -18,11 +20,9 @@ def to_square(x):
     return x**2
 
 
-squared = list(map(to_square, xs))
-print("The squared values (by function)", squared)
+print("The squared values (by function)", list(map(to_square, xs)))
+print("The squared values (by lambda)", list(map(lambda x: x**2, xs)))
 
-squared = list(map(lambda x: x**2, xs))
-print("The squared values (by lambda)", squared)
 
 # filtering
 
@@ -32,9 +32,20 @@ def is_even(x):
     return x % 2 == 0
 
 
-even = list(filter(is_even, xs))
-print("The even values (by function)", even)
+print("The even values (by function)", list(filter(is_even, xs)))
+print("The even values (by lambda)", list(filter(lambda x: x % 2 == 0, xs)))
 
 
-even = list(filter(lambda x: x % 2 == 0, xs))
-print("The even values (by lambda)", even)
+# sorting
+
+names = ["billy", "bo", "tom"]
+print("Names are:", names)
+
+
+def to_len(x):
+    """helper to convert a string to its lenght"""
+    return len(x)
+
+
+print("Names sorted by length (by function)", list(sorted(names, key=to_len)))
+print("Names sorted by length (by lambda)", list(sorted(names, key=lambda x: len(x))))
