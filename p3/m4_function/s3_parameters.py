@@ -1,11 +1,11 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 6 - Function
+Module 1 - Function
 
-Parameters - by position, by keyword, default
+Parameters and arguments
 """
 
 
@@ -79,11 +79,11 @@ def print_info(name, **kwargs):
 print_info("Tom", profession="coder", city="Madrid")
 print_info("Bob")
 
-# splat an iterable argument to parameters
+# unpack an iterable argument to parameters
 values = ("King", "James")
 greeting(*values)
 greeting3(*values)
 
-# splat a dictionary argument to parameters
+# unpack a dictionary argument to parameters
 info = {"title": "Mr", "name": "White"}
 greeting(**info)
