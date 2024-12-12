@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 7 - Modules and Packages
+Module 2 - Modules and Packages
 
 Plain import of a module
 """
