@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 6 - Function
+Module 1 - Function
 
 Functional programming
 """
@@ -11,7 +11,7 @@ Functional programming
 
 def greeter():
     """Definition of a simple function"""
-    print("Hello")
+    print("Hello from function greeter")
 
 
 # A function is an object
@@ -23,7 +23,7 @@ greeter()
 
 def runner(f):
     """Definition of a simple Higher-Order Function (HOF)"""
-    print("Running the passed function:", end=" ")
+    print("This HOF runs the passed function:", end=" ")
     f()
 
 
@@ -33,12 +33,13 @@ runner(greeter)
 
 def runner2(f, left, right):
     """HOF for a function accepting two arguments"""
-    print(f"Running the passed function on {left} and {right}:", end=" ")
+    print(f"This HOF runs the passed function on {left} and {right}:", end=" ")
     f(left, right)
 
 
 def adder(left, right):
-    print(left + right)
+    """A simple function"""
+    print("The adder function has been invoked:", left + right)
 
 
 # invoking the adder function
