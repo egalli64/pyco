@@ -16,7 +16,7 @@ def noop():
 
 # calling noop we get None as result
 result = noop()
-print(result, type(result))
+print("The value returned by noop() is", result)
 
 
 def noop2():
@@ -26,7 +26,7 @@ def noop2():
 
 # calling noop2 we still get None as result
 result = noop2()
-print(result, type(result))
+print("The value returned by noop2() is", result)
 
 
 def solution():
@@ -36,7 +36,7 @@ def solution():
 
 # an integer is assigned to result
 result = solution()
-print(result, type(result))
+print("The value returned by solution() is", result)
 
 
 def is_even(value):
@@ -51,14 +51,15 @@ def is_even(value):
 
 # a boolean is assigned to result
 result = is_even(solution())
-print(result, type(result))
+print("The value returned by is_even() is", result)
 
 
 def prev_next(value):
     """A function returning a tuple"""
-    return (value-1, value+1)
+    # the round brackets are not mandatory
+    return value - 1, value + 1
 
 
 # a tuple is assigned to result
 result = prev_next(solution())
-print(result, type(result))
+print("The value returned by prev_next() is", result, type(result))
