@@ -7,17 +7,18 @@ Module 2 - Modules and Packages
 
 Module search path
 """
+
 import sys
 import csv
 
 try:
     # this module is not expected to exist
-    import a_missing_one
+    import a_missing_module
 except ModuleNotFoundError as ex:
-    print(ex)
+    print("ModuleNotFoundError:", ex)
 
 # highest priority modules
-print("The tuple of built-in modules:", sys.builtin_module_names)
+print("The built-in modules:", sys.builtin_module_names)
 
 # paths for the (other) modules that could be imported
 print("The current module search path:")
