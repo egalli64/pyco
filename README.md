@@ -59,7 +59,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Using iterators
     Functional programming support
     Lambda expression as helper for map() and filter()
-### 5 - Modules and Packages
+### 5 - Module
     Module: import, from, as
     Module search path: sys.path, PYTHONPATH
     Module __name__, __main__

@@ -3,7 +3,7 @@ Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 2 - Modules and Packages
+Module 2 - Module
 
 Plain import of a module
 """
