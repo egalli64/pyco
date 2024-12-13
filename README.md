@@ -8,9 +8,8 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Variables
     Objects and types
     Dynamic typing and None
-### 2 - Data types: string
-    Variable, object, None
-    Literal string, f-string
+### 2 - The string data type
+    Literal string, f-string, r-string
     Iterable and iterator
     Sequence: operators, statements, builtin functions, and methods
     Slicing on sequences
@@ -23,33 +22,42 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Precedence and associativity
     Relational operators
     Logical operators
-
-## Part 2
-
-### 1 - Control Flow
+### 4 - Control Flow
     Compound instructions, indentation, pass
     Conditional statements: if - elif - else
     Conditional expression: if - else
     While loop
     For loop - the range() builtin function
-    Jump in loop: break, continue, return
-### 2 - List and tuple
-    List
+    Jump: break, continue, return
+    Else for loop
+
+## Part 2 - Basic Data Structures
+
+### 1 - List
+    Definition
     Editing by methods and statement del
     Oredering by builtin sorted() and method sort()
     List comprehension
-    Tuple
-### 3 - Dictionary and set
-    Dictionary as hash table based key/value mapping
+### 2 - Tuple
+    Definition
+    Tuple comprehension
+### 3 - Dictionary
+    Definition
     Dictionary comprehension
-    Basic commands: get(), setdefault(), del, pop(), in
-    Loop on views by: items(), keys(), values()
-    Copy by: merge, update(), copy(), deepcopy()
-    Set as hash table for keys only
+    Accessing components
+    Editing components
+    Views
+    Copies
+    Update and merge
+### 4 - Set
+    Definition
     Set comprehension
-    Set editing: add(), update(), remove(), discard(), pop()
-    Mathematical set: union, difference, ...
-### 4 - Function
+    Set editing
+    Set theory
+
+## Part 3 - Modularization
+
+### 1 - Function
     Header and body, docstring, pass
     Parameters and arguments
     Passing arguments by position and by name
@@ -59,12 +67,12 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Using iterators
     Functional programming support
     Lambda expression as helper for map() and filter()
-### 5 - Module
+### 2 - Module
     Module: import, from, as
     Module search path: sys.path, PYTHONPATH
     Module __name__, __main__
     Package, import module from package
-### 6 - Object Oriented Programming
+### 3 - Object Oriented Programming
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer
@@ -75,6 +83,9 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Classes relation by issubclass()
     Object/class relation by isinstance()
     Exception: raise, try, catch
+
+## Part 4 - Files
+
 ### 7 - File
     open() / close(), with
     print(), write()
@@ -83,7 +94,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     csv: writer() and reader()
     csv: DictReader and DictWriter
 
-## Part 3
+## Part 5 - More advanced material
 
 ### 1 - More fundamental concepts
     float: epsilon, min, max, inf, nan
@@ -121,10 +132,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
 ### 6 - Design Patterns
     Singleton
     Factory Method
-
-## Part 4
-
-### 1 - Numbers
+### 7 - Numbers
     The Number hierarchy
     Builtin numeric types: bool, int, float, complex
     Some builtin numeric functions
