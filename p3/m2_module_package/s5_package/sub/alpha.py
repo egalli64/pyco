@@ -7,6 +7,7 @@ Module 2 - Modules and Packages
 
 A module that imports and is imported
 """
+
 if __name__ == "sub.alpha":
     # the search path is on the package above
     import epsilon

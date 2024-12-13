@@ -7,6 +7,7 @@ Module 2 - Modules and Packages
 
 A script that imports modules from other packages
 """
+
 # import from a direct sub-package a couple of modules
 from sub import alpha, beta
 
