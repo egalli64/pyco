@@ -1,20 +1,22 @@
 """
-Python Course - Part 1
+Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 9 - File
+Module 1 - File
 
-The Path class
+The Path class - reading
 """
-from pathlib import Path
-from random import random
 
-FRIENDS_FILENAME = "friends.txt"
-OUTPUT_FILENAME = "random_values.txt"
+from pathlib import Path
+
+FRIENDS_FILENAME = "p4/m1_file/friends.txt"
 
 try:
     input_path = Path(FRIENDS_FILENAME)
+    if input_path.exists():
+        print(f"The file {FRIENDS_FILENAME} contains:")
+
     content = input_path.read_text()
 except FileNotFoundError as ex:
     print("Can't read_text", ex)
@@ -29,14 +31,3 @@ else:
         print(check, "is a friend")
     else:
         print("I don't know anything about", check)
-
-content = ""
-for value in range(10):
-    content += str(random()) + '\n'
-
-output_path = Path(OUTPUT_FILENAME)
-if output_path.exists():
-    print(f"The file {OUTPUT_FILENAME} already exists!")
-else:
-    # if we don't check, it would overwrite existing data
-    output_path.write_text(content)
