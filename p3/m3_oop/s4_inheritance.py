@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 8 - Object Oriented Programming
+Module 3 - Object Oriented Programming
 
 Inheritance
 """

@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 8 - Object Oriented Programming
+Module 3 - Object Oriented Programming
 
 Attributes and methods
 """
@@ -25,8 +25,8 @@ class Dog:
 bob = Dog("Bob")
 tom = Dog("Tom")
 
-print(bob.name)
-print(tom.name)
+print("bob name:", bob.name)
+print("tom name:", tom.name)
 
 bob.bark()
 tom.bark()

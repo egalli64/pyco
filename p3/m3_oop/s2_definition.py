@@ -1,9 +1,9 @@
 """
-Python Course - Part 1
+Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 8 - Object Oriented Programming
+Module 3 - Object Oriented Programming
 
 Class and object
 """
@@ -17,7 +17,7 @@ class Empty:
 empty = Empty()
 
 # using the Empty object
-print(empty)
+print("An empty object:", empty)
 
 
 class Minimal:
@@ -28,7 +28,7 @@ class Minimal:
 
     def method(self):
         """A minimal method"""
-        print("The method has been called")
+        print("The minimal method has been called")
 
 
 # instantiate objects of the Minimal class
