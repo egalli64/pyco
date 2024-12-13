@@ -1,13 +1,13 @@
 """
-Python Course - Part 1
+Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 9 - File
+Module 1 - File
 
 Read
 """
-FRIENDS_FILENAME = "p1/m8_file/friends.txt"
+FRIENDS_FILENAME = "p4/m1_file/friends.txt"
 
 # open file implicitly in read-text mode
 with open(FRIENDS_FILENAME) as f:
