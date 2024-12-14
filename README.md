@@ -86,13 +86,14 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
 
 ## Part 4 - Files
 
-### 7 - File
+### 1 - File
     open() / close(), with
     print(), write()
     read(), readlines(), readline(), for - in
     pathlib.Path
-    csv: writer() and reader()
-    csv: DictReader and DictWriter
+### 2 - Structured File
+    CSV
+    JSON
 
 ## Part 5 - More advanced material
 
