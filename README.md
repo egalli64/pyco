@@ -10,10 +10,11 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Dynamic typing and None
 ### 2 - The string data type
     Literal string, f-string, r-string
-    Iterable and iterator
-    Sequence: operators, statements, builtin functions, and methods
-    Slicing on sequences
-    String methods
+    String as iterable - accessed by iterator (for-in)
+    String as immutable sequence: operator [], method index(), operator in
+    Slicing on string (immutable sequences)
+    Concatenation and repetition by + and *
+    Some commonly used string methods
 ### 3 - Numeric types
     bool, int, float
     Cast to a numeric type
@@ -28,61 +29,65 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Conditional expression: if - else
     While loop
     For loop - the range() builtin function
-    Jump: break, continue, return
-    Else for loop
+    Jump in loop by break, continue, return
+    Else in a loop statement
 
 ## Part 2 - Basic Data Structures
 
 ### 1 - List
-    Definition
+    Mutable resizable sequence implementing the array ADT
+    Literal definition
     Editing by methods and statement del
-    Oredering by builtin sorted() and method sort()
+    Ordering by builtin sorted() and method sort()
+    Unordering by random shuffle(), reversing by method reverse()
     List comprehension
 ### 2 - Tuple
-    Definition
-    Tuple comprehension
+    Kind of an immutable list
+    Literal definition
+    (Kind of) Tuple comprehension
 ### 3 - Dictionary
-    Definition
-    Dictionary comprehension
-    Accessing components
+    Mutable collection of key-value pairs implementing the hashtable ADT
+    Literal definition, constructor function, dictionary comprehension
+    Accessing components by operator (not) in, [], method get()
     Editing components
-    Views
-    Copies
+    Views by items(), keys(), values()
+    Copies by copy(), dict(), deepcopy()
     Update and merge
 ### 4 - Set
-    Definition
-    Set comprehension
+    Kind of a dictionary but with key-only elements
+    Literal definition, constructor function, set comprehension
+    Set as iterable: len(), (not) in, for-in
     Set editing
     Set theory
 
 ## Part 3 - Modularization
 
 ### 1 - Function
-    Header and body, docstring, pass
+    Definition: header and body, docstring, pass
     Parameters and arguments
     Passing arguments by position and by name
     Default parameter value
     Varargs and argument unpacking
     Return value, or None
-    Using iterators
+    Using iterators: iter(), next()
     Functional programming support
-    Lambda expression as helper for map() and filter()
+    Lambda expression as helper for map(), filter(), and sort()
 ### 2 - Module
-    Module: import, from, as
-    Module search path: sys.path, PYTHONPATH
-    Module __name__, __main__
+    Import, from, as
+    Search path: sys.path, PYTHONPATH
+    Module __name__, the __main__ module
     Package, import module from package
 ### 3 - Object Oriented Programming
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer
-    Method: self
-    __init__
-    Dot '.' operator
+    Method: the self parameter
+    The __init__ dunder
+    The dot '.' operator
     Inheritance, super(), override
     Classes relation by issubclass()
     Object/class relation by isinstance()
-    Exception: raise, try, catch
+    Exception: raise, try, except
 
 ## Part 4 - Files
 
