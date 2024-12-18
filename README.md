@@ -100,16 +100,11 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     CSV
     JSON
 
-## Part 5 - More advanced material
+## Part 5 - More advanced topics
 
-### 1 - More fundamental concepts
-    float: epsilon, min, max, inf, nan
-    complex: real, imag, conjugate()
-    Chained comparison, implicit cast to boolean
-    Conditional expressions: if-else, or, and
-    string: slice, split(), join(), int to str
-    Create list by zip()
-    collections.namedtuple
+### 1 - Numbers
+    The Number hierarchy
+
 ### 2 - More on function
     Inner function
     Closure
@@ -138,7 +133,13 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
 ### 6 - Design Patterns
     Singleton
     Factory Method
-### 7 - Numbers
-    The Number hierarchy
+### 7 - ...
     Builtin numeric types: bool, int, float, complex
     Some builtin numeric functions
+    float: epsilon, min, max, inf, nan
+    complex: real, imag, conjugate()
+    Chained comparison, implicit cast to boolean
+    Conditional expressions: if-else, or, and
+    string: slice, split(), join(), int to str
+    Create list by zip()
+    collections.namedtuple
