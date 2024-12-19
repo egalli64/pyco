@@ -109,6 +109,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Integer: binary, octal, hexadecimal; underscore; division; module; power
     Float: literal definition; the constants epsilon, min, max, inf, nan
     Complex: real, imag, conjugate()
+    Some useful built-in functions: abs(), divmod(), pow(), round()
 ### 2 - More on function
     Inner function
     Closure
@@ -138,7 +139,6 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Singleton
     Factory Method
 ### 7 - ...
-    Some builtin numeric functions
     Chained comparison, implicit cast to boolean
     Conditional expressions: if-else, or, and
     string: slice, split(), join(), int to str
