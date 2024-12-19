@@ -108,6 +108,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Boolean: True/Truthy, False/Falsy; and, or, not, exor
     Integer: binary, octal, hexadecimal; underscore; division; module; power
     Float: literal definition; the constants epsilon, min, max, inf, nan
+    Complex: real, imag, conjugate()
 ### 2 - More on function
     Inner function
     Closure
@@ -138,7 +139,6 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Factory Method
 ### 7 - ...
     Some builtin numeric functions
-    complex: real, imag, conjugate()
     Chained comparison, implicit cast to boolean
     Conditional expressions: if-else, or, and
     string: slice, split(), join(), int to str
