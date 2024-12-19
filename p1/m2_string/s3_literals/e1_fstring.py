@@ -5,22 +5,18 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-String literals
-F-string
+String literals: F-string
 """
 
-PI = 3.141592653589793
+import math
+
 radius = 5
 
 # referring to variable / expression in a f-string
-print(f"The area of a circle with radius {radius} is {PI * radius ** 2}")
+print(f"The area of a circle with radius {radius} is {math.pi * radius ** 2}")
 
 # to print a curly brace in a f-string, just double it
 print(f"This is an open curly brace '{{' and this is a close one '}}'")
 
-# real number formatting
-print(f"A pi approximation: {PI:.5f}")
-
-# padding and alignment
-print(f"Left aligned:  _{PI:<20}_")
-print(f"Right aligned: _{PI:>20}_")
+# rounding
+print(f"A pi approximation: {math.pi:.5f}")
