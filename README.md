@@ -27,6 +27,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Compound instructions, indentation, pass
     Conditional statements: if - elif - else
     Conditional expression: if - else
+    Chained comparison
     While loop
     For loop - the range() builtin function
     Jump in loop by break, continue, return
@@ -139,8 +140,6 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Singleton
     Factory Method
 ### 7 - ...
-    Chained comparison, implicit cast to boolean
-    Conditional expressions: if-else, or, and
     string: slice, split(), join(), int to str
     Create list by zip()
     collections.namedtuple
