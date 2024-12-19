@@ -106,6 +106,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     The Number hierarchy
     Built-in types: bool, int, float, complex
     Boolean: True/Truthy, False/Falsy; and, or, not, exor
+    Integer: binary, octal, hexadecimal; underscore; division; module; power
 
 ### 2 - More on function
     Inner function
