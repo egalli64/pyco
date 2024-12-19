@@ -107,7 +107,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Built-in types: bool, int, float, complex
     Boolean: True/Truthy, False/Falsy; and, or, not, exor
     Integer: binary, octal, hexadecimal; underscore; division; module; power
-
+    Float: literal definition; the constants epsilon, min, max, inf, nan
 ### 2 - More on function
     Inner function
     Closure
@@ -138,7 +138,6 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Factory Method
 ### 7 - ...
     Some builtin numeric functions
-    float: epsilon, min, max, inf, nan
     complex: real, imag, conjugate()
     Chained comparison, implicit cast to boolean
     Conditional expressions: if-else, or, and
