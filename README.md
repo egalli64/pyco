@@ -104,6 +104,8 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
 
 ### 1 - Numbers
     The Number hierarchy
+    Built-in types: bool, int, float, complex
+    Boolean: True, False, Truthy, Falsy
 
 ### 2 - More on function
     Inner function
@@ -134,7 +136,6 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Singleton
     Factory Method
 ### 7 - ...
-    Builtin numeric types: bool, int, float, complex
     Some builtin numeric functions
     float: epsilon, min, max, inf, nan
     complex: real, imag, conjugate()

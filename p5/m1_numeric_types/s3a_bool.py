@@ -1,5 +1,5 @@
 """
-Python Course - Part 4
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
@@ -7,23 +7,28 @@ Module 1 - Numeric Types
 
 bool
 """
+
 flag = True
 print("flag is", flag, type(flag))
 
-if 42 != True:
-    print("Only 1 is True!")
+x = 42
+if x != True:
+    print(f"Only 1 is True! {x} is {x == True}")
 
-if 42:
-    print("A non-zero number is truthy")
+if x:
+    print(f"But a non-zero number is truthy! {x} is {bool(x)}")
 
-if not 0.0:
-    print("A zero number is false")
+x = 0.0
+if not x:
+    print(f"A zero number, {x}, is false")
 
-if "0":
-    print("A non-empty string is truthy")
+x = "0"
+if x:
+    print(f"A non-empty string, '{x}', is truthy")
 
-if not "":
-    print("An empty string is falsy")
+x = ""
+if not x:
+    print(f"An empty string, '{x}', is falsy")
 
 
 class ZeroSized:
@@ -31,8 +36,9 @@ class ZeroSized:
         return 0
 
 
-if not ZeroSized():
-    print("An object with len 0 is falsy")
+x = ZeroSized()
+if not x:
+    print(f"An object with len 0 is falsy: len x is {len(x)}, bool x is {bool(x)}")
 
 
 class FalseBool:
@@ -40,5 +46,19 @@ class FalseBool:
         return False
 
 
-if not FalseBool():
+x = FalseBool()
+if not x:
     print("An object False when casted to bool is falsy")
+
+
+class Empty:
+    pass
+
+
+x = Empty()
+if x:
+    print("An object that does not define __bool()__ nor __len()__ is truthy")
+
+x = None
+if not x:
+    print(f"None, {x}, is falsy")
