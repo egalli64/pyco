@@ -1,5 +1,5 @@
 """
-Python Course - Part 4
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
@@ -7,8 +7,6 @@ Module 1 - Numeric Types
 
 bool operators
 """
-a = True
-b = False
 
 print("AND truth table")
 for a in False, True:
