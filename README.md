@@ -27,7 +27,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Compound instructions, indentation, pass
     Conditional statements: if - elif - else
     Conditional expression: if - else
-    Chained comparison
+    Chained comparisons
     While loop
     For loop - the range() builtin function
     Jump in loop by break, continue, return
