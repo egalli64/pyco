@@ -111,7 +111,9 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Float: literal definition; the constants epsilon, min, max, inf, nan
     Complex: real, imag, conjugate()
     Some useful built-in functions: abs(), divmod(), pow(), round()
-### 2 - More on function
+### 2 - String
+    Formatting in a f-string
+### 3 - Function
     Inner function
     Closure
     Decorator
