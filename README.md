@@ -113,6 +113,7 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Some useful built-in functions: abs(), divmod(), pow(), round()
 ### 2 - String
     Formatting in a f-string
+    Encoding and decoding
 ### 3 - Function
     Inner function
     Closure
