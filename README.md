@@ -112,13 +112,17 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Complex: real, imag, conjugate()
     Some useful built-in functions: abs(), divmod(), pow(), round()
 ### 2 - String
-    Formatting in a f-string
-    Encoding and decoding
+    Formatting in f-string
+    Encode and decode
+    Check: isalpha(), isdigit(), ...
+    Search: find(), index(), ...
+    Change: split(), join(), ...
 ### 3 - Function
     Inner function
     Closure
     Decorator
-    Namespace, scope
+    Namespaces
+    Built-in: map(), filter(), reduce(), zip(), ...    
 ### 3 - More on Object Oriented Programming
     Classes object and type
     Attributes and properties
