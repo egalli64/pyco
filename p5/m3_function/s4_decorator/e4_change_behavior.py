@@ -1,11 +1,11 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 2 - More on functions
+Module 3 - Function
 
-Decorator (change input for and output from the decorated function)
+Decorator - change both input and output
 """
 
 
@@ -22,8 +22,8 @@ def increase_and_square(f):
         # 1. before: increase of arguments
         increased_args = tuple(arg + 1 for arg in args)
         increased_kwargs = {key: value + 1 for key, value in kwargs.items()}
-        print(f"The caller passed {args} and {kwargs} to {f.__name__}")
-        print(f"The wrapper calls {f.__name__} with {increased_args} and {increased_kwargs}")
+        print(f"The caller passes {args} and {kwargs} to {f.__name__}")
+        print(f"The callee gets {increased_args} and {increased_kwargs}")
 
         # 2. call the wrapped function with increased arguments
         result = f(*increased_args, **increased_kwargs)
@@ -43,5 +43,4 @@ def sum_and_multiply(a, b, c):
     return (a + b) * c
 
 
-# calling the decorated function
 print("The caller sees as result", sum_and_multiply(2, 3, c=4))
