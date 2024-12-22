@@ -1,27 +1,27 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 2 - More on functions
+Module 3 - Function
 
-Decorator (add behavior to decorated function)
+Decorator - add behavior for logging
 """
 
 
-def log_decorator(f):
+def log_decorator(func):
     """A decorator to add log before and after the calls to the decorated function"""
 
     def wrapper(*args, **kwargs):
         """The closure wraps the call to the decorated function"""
         # 1. before
-        print(f"Calling {f.__name__} with {args} and {kwargs}")
+        print(f"Calling {func.__name__} with arguments: {args} and {kwargs}")
 
         # 2. call the wrapped function
-        result = f(*args, **kwargs)
+        result = func(*args, **kwargs)
 
         # 3. after
-        print(f"{f.__name__} returned: {result}")
+        print(f"{func.__name__} returned: {result}")
         return result
 
     return wrapper
