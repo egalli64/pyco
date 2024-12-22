@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 3 - Function
 
-Decorator - apply more than one decorator
+Decorator - apply more than one decorator (on string)
 """
 
 
