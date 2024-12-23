@@ -50,3 +50,6 @@ print("c is an A?", isinstance(c, A))
 print("c is a B?", isinstance(c, B))
 print("c is a C?", isinstance(c, C))
 print()
+
+print("The object attributes:", dir(object))
+print()
