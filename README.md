@@ -123,10 +123,10 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Decorator
     Namespaces
     Built-in: map(), filter(), reduce(), zip(), ...    
-### 3 - More on Object Oriented Programming
-    Classes object and type
+### 4 - Object Oriented Programming
+    Class object and metaclass type
     Attributes and properties
-    Method: instance, class, static
+    Methods: instance, class, static
     Special methods: __init__(), ...
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
