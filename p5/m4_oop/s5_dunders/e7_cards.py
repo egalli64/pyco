@@ -1,11 +1,11 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 3 - More on Object Oriented Programming
+Module 4 - OOP
 
-Dunders
+Special methods - example of a class with a few dunders
 """
 
 
@@ -15,17 +15,17 @@ class PlayingCard:
         self._suit = suit
 
     def __repr__(self):
-        """Internal use"""
+        """Internal use representation"""
         return f"PlayingCard({self._rank}, {self._suit})"
 
     def __str__(self):
-        """More friendly"""
+        """More friendly representation"""
         return f"{self._rank} of {self._suit}"
 
 
 s2 = PlayingCard(2, "spades")
 print("A card representation:", repr(s2))
-print("A card as a string:", str(s2))
+print("A card user-friendly representation:", str(s2))
 
 if s2:
     print("By default each object is truthy")
