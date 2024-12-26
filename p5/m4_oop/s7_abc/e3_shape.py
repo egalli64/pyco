@@ -7,17 +7,8 @@ Module 3 - More on Object Oriented Programming
 
 Abstract Base Classes and abstract methods
 """
+
 from abc import ABC, abstractmethod
-
-
-class Minimal(ABC):
-    """Even though extends ABC, this class is not abstract!"""
-
-    def __str__(self):
-        return "Surprise!"
-
-
-print(Minimal())
 
 
 class Shape(ABC):
