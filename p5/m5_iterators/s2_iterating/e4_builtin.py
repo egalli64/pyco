@@ -1,14 +1,15 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
-Iterable and iterator
-Use by built-in
+Iterators - Iterable and iterator
+
+Iterating with built-in functions
 """
-from e3_iter import IntDigits
+from e3_modern_iter import IntDigits
 
 digits = IntDigits(347_123_348_922)
 print(digits)
