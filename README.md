@@ -131,9 +131,9 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
     Abstract class and @abstractmethod
-### 4 - Sequences
+### 5 - Iterators
     Iterables and iterators: __getitem__, __iter__, __next__
-    Generator: yield, comprehension
+    Generator: yield, expression
     collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
     Comprehension and generator for sequence definition
     Unpacking on iterables

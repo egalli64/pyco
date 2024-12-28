@@ -1,11 +1,12 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 4 - OOP
 
-Iterable and iterator
+Iterators - Iterable and iterator
+
 A non iterable class
 """
 
