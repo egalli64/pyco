@@ -3,7 +3,7 @@ Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - OOP
+Module 5 - Iterators
 
 Iterators - Iterable and iterator
 
