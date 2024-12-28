@@ -1,11 +1,11 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 3 - More on Object Oriented Programming
+Module 4 - OOP
 
-Multiple Inheritance
+MI - An example
 """
 
 
@@ -36,9 +36,11 @@ print("Method Resolution Orders:")
 print("In a list:", Mule.mro())
 print("In a tuple:", Mule.__mro__)
 print(Hinny.mro())
+print()
 
 print("Mule bases:", Mule.__bases__)
 print("Hinny bases:", Hinny.__bases__)
+print()
 
 print("A mule (is mainly a Donkey):", end=" ")
 Mule().hello()
