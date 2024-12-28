@@ -1,11 +1,12 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 4 - OOP
 
-Iterable and iterator
+Iterators - Iterable and iterator
+
 A legacy iterable class
 """
 
@@ -27,6 +28,7 @@ class IntDigitsByGetter:
 
 digits = IntDigitsByGetter(347_123_348_922)
 print(f"{digits} starts with {digits[0]} and ends with {digits[-1]}")
+
 print("Each digit in it:", end=" ")
 for digit in digits:
     print(digit, end=" ")
