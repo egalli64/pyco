@@ -1,11 +1,12 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 4 - OOP
 
-Iterable and iterator
+Iterators - Iterable and iterator
+
 Modern iterable and iterator
 """
 
@@ -52,6 +53,12 @@ class DigitIterator:
 if __name__ == "__main__":
     digits = IntDigits(347_123_348_922)
     print(digits)
+
+    try:
+        print(f"{digits} starts with {digits[0]} and ends with {digits[-1]}")
+    except TypeError as ex:
+        print("__getitem__() has not been defined:", ex)
+
     print("Each digit in it:", end=" ")
     for digit in digits:
         print(digit, end=" ")
