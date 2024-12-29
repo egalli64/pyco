@@ -7,11 +7,12 @@ Module 5 - Iterators
 
 Iterators - Iterable and iterator
 
-Iterating with built-in functions
+Iterating with built-in functions iter() and next()
 """
-from e3_modern_iter import IntDigits
 
-digits = IntDigits(347_123_348_922)
+from e3_modern_iter import IterableInt
+
+digits = IterableInt(347_123_348_922)
 print(digits)
 
 # get an iterator on the IntDigits iterable

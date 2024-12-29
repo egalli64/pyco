@@ -11,7 +11,7 @@ A legacy iterable class
 """
 
 
-class IntDigitsByGetter:
+class IterableIntByGetter:
     """This class implements __getitem__(), so it is iterable"""
 
     def __init__(self, value):
@@ -23,10 +23,10 @@ class IntDigitsByGetter:
         return int(self._buffer[i])
 
     def __repr__(self):
-        return f"IntDigitsByGetter({self._value})"
+        return f"IterableIntByGetter({self._value})"
 
 
-digits = IntDigitsByGetter(347_123_348_922)
+digits = IterableIntByGetter(347_123_348_922)
 print(f"{digits} starts with {digits[0]} and ends with {digits[-1]}")
 
 print("Each digit in it:", end=" ")

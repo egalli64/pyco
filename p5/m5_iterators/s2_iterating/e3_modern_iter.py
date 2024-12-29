@@ -11,7 +11,7 @@ Modern iterable and iterator
 """
 
 
-class IntDigits:
+class IterableInt:
     """This class implements __iter__(), so it is iterable"""
 
     def __init__(self, value):
@@ -23,7 +23,7 @@ class IntDigits:
         return DigitIterator(self._buffer)
 
     def __repr__(self):
-        return f"IntDigits({self._value})"
+        return f"IterableInt({self._value})"
 
 
 class DigitIterator:
@@ -51,7 +51,7 @@ class DigitIterator:
 
 
 if __name__ == "__main__":
-    digits = IntDigits(347_123_348_922)
+    digits = IterableInt(347_123_348_922)
     print(digits)
 
     try:

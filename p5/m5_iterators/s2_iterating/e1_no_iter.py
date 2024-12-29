@@ -11,22 +11,22 @@ A non iterable class
 """
 
 
-class NotIterableDigits:
-    """Not implementing __getitem__ nor __iter__ this class is not iterable"""
+class NotIterableInt:
+    """This class is not iterable, it does not implement __getitem__ nor __iter__ """
 
     def __init__(self, value):
         self._value = value
         self._buffer = str(value)
 
     def __repr__(self):
-        return f"NotIterableDigits({self._value})"
+        return f"NotIterableInt({self._value})"
 
 
-digits = NotIterableDigits(347_123_348_922)
+digits = NotIterableInt(347_123_348_922)
 print(digits)
 
 try:
     # not iterable
-    iter(NotIterableDigits(42))
+    iter(NotIterableInt(42))
 except TypeError as ex:
     print(ex)
