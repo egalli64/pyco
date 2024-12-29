@@ -1,17 +1,20 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
-ABC - Abstract Base Class - collections abc Iterable
+ABC - Abstract Base Class
+
+Iterable
 """
+
 from collections import abc
 
 
 class MyAbstractIterable(abc.Iterable):
-    """It is-a Iterable - no __iter__() implementation - this class is abstract"""
+    """It is-an Iterable - no __iter__() implementation - this class is abstract"""
 
     pass
 
@@ -27,7 +30,7 @@ class MyIterable(abc.Iterable):
     """A concrete Iterable"""
 
     def __init__(self, data):
-        """Is-a iterable, and has-a iterable data"""
+        """Is-an iterable, and has-a iterable data"""
         self.data = data
 
     def __iter__(self):
