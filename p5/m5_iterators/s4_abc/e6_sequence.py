@@ -1,12 +1,15 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 6 - Sequence
+Module 5 - Iterators
 
-ABC - Abstract Base Class - collections abc Sequence
+ABC - Abstract Base Class
+
+Sequence
 """
+
 from collections import abc
 
 
