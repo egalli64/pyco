@@ -1,9 +1,9 @@
 """
-Python Course - Part 2
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
 Generator and list comprehension
 Compare list comprehension vs initialization by for loop
