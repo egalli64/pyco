@@ -1,12 +1,15 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
-ABC - Abstract Base Class - collections abc Collection
+ABC - Abstract Base Class
+
+Collection
 """
+
 from collections import abc
 
 
@@ -32,12 +35,14 @@ class MyCollection(abc.Collection):
 
 xs = MyCollection([2, 5, 9])
 
-print("Iterating on a MyCollection:", end=" ")
+print(f"Is xs a {abc.Collection}?", isinstance(xs, abc.Collection))
+
+print("Iterating on xs:", end=" ")
 for x in xs:
     print(x, end=" ")
 print()
 
-print("A MyCollection len is", len(xs))
+print("xs len is", len(xs))
 
 for x in 5, 42:
-    print(f"Is {x} in my collection?", x in xs)
+    print(f"Is {x} in xs?", x in xs)
