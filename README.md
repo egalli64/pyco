@@ -137,16 +137,18 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     collections.abc: Iterable, Sized, Container, Reversible, Collection, Sequence
     Comprehension and generator for sequence definition
     Unpacking on iterables
-### 5 - Log and Test
+### 6 - The collections module
+    namedtuple
+    deque
+    Counter
+    defaultdict
+### 7 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
     Unit Test
     unittest: assertions, discover tests
     VS Code and unittest
-### 6 - Design Patterns
+### 8 - Design Patterns
     Singleton
     Factory Method
-### 7 - ...
-    string: slice, split(), join(), int to str
-    Create list by zip()
-    collections.namedtuple
+
