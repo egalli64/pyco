@@ -1,20 +1,27 @@
 """
-Python Course - Part 2
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
-Unpacking
-Parallel assignment and swap
+Unpacking - Parallel assignment and swap
 """
+
+# 1. unpacking a list
+xs = [1, 2, 3, 4]
+print("Given a list:", xs)
+
+a, b, c, d = xs
+print(f"Unpack it in a={a}, b={b}, c={c}, and d={d}")
+
+# 2. unpacking a tuple
 point = (53, 12)
-print("My point is", point)
+print("Given a tuple:", point)
 
-# unpacking
 x, y = point
-print(f"x is {x}, y is {y}")
+print(f"Unpack it in x={x}, and y={y}")
 
-# swap
+# 3. swap
 x, y = y, x
-print(f"After swap x is {x}, y is {y}")
+print(f"Swap: x={x}, and y={y}")
