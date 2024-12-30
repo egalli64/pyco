@@ -1,18 +1,19 @@
 """
-Python Course - Part 2
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 4 - Sequence
+Module 5 - Iterators
 
 Unpacking
 The * operator in constructors
 """
-a = (2, *range(3), 12)
+
+a = (42, *range(3), 12)
 print("A tuple:", a)
 
-b = [2, *range(3), 12]
+b = [42, *range(3), 12]
 print("A list:", b)
 
-c = {2, *range(3), 12}
+c = {42, *range(3), 12}
 print("A set:", c)
