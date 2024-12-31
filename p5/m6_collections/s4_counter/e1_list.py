@@ -12,4 +12,10 @@ from collections import Counter
 
 fruits = ["orange", "apple", "banana", "apple", "banana", "apple"]
 counter = Counter(fruits)
+
+# for readability, printing the Counter we see the elements in descending order by count
 print(counter)
+
+# but the order is not in the dictionary itself!
+for k, v in counter.items():
+    print(f"k={k}: v={v}")
