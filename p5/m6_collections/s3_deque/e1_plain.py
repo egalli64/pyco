@@ -34,14 +34,3 @@ data.rotate(1)
 print("After rotate 1 (right):", data)
 data.rotate(-2)
 print("After rotate -2 (left):", data)
-print()
-
-# 5. append when maxlen is set
-data = deque([9, 8, 7], maxlen=3)
-print("A deque with maxlen:", data)
-for i in range(5):
-    if i % 2:
-        data.append(i)
-    else:
-        data.appendleft(i)
-    print(f"After append{"" if i%2 else "left"}:", data)
