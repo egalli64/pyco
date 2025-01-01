@@ -138,10 +138,10 @@ Developed on Python 3.12 - <https://www.python.org/downloads/>
     Comprehension and generator for sequence definition
     Unpacking on iterables
 ### 6 - The collections module
-    namedtuple
-    deque
     Counter
     defaultdict
+    namedtuple
+    deque
 ### 7 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
