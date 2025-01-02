@@ -10,7 +10,7 @@ The logging module
 import logging
 
 # logger for the current file
-logger = logging.getLogger("s3_other")
+logger = logging.getLogger("e2_other")
 
 
 def other(value):

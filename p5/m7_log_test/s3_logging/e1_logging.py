@@ -7,11 +7,12 @@ Module 5 - Log and Test
 
 The logging module
 """
+
 import logging
-from s3_other import other
+from e2_other import other
 
 # logger for the current script
-logger = logging.getLogger("s3_logging")
+logger = logging.getLogger("e1_logging")
 
 # log messages, by default to stderr
 logger.debug("A debug message")
@@ -26,7 +27,7 @@ print("Hello")
 # change the log configuration: set log level, file sink, message format
 logging.basicConfig(
     level="DEBUG",
-    filename="s3_my_app.log",
+    filename="p5_m7_s3.log",
     format="%(asctime)s %(levelname)-8s %(name)s:%(lineno)d %(message)s",
 )
 
