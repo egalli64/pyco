@@ -1,14 +1,14 @@
 """
-Python Course - Part 3
+Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 5 - Log and Test
+Module 7 - Log and Test
 
 The unittest module - assertEqual()
 """
 import unittest
-import s5a_math as m
+import e1_math as m
 
 
 class TestMathAdd(unittest.TestCase):

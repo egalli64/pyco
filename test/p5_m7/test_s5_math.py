@@ -7,12 +7,13 @@ Module 11 - Log and Test
 
 The unittest module
 """
+
 import unittest
 
-from p2.m3_log_test.s5_testing import s5a_math as m
+from p5.m7_log_test.s5_testing import e1_math as m
 
 
-class TestMath(unittest.TestCase):
+class TestS5Math(unittest.TestCase):
     def test_add_plain(self):
         expected = 42
         actual = m.add(2, 40)
