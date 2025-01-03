@@ -3,7 +3,7 @@ Python Course - Part 5
 
 https://github.com/egalli64/pyco
 
-Module 6 - Log and Test
+Module 7 - Log and Test
 
 Log with print()
 
