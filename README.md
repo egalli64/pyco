@@ -100,6 +100,7 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
 ### 2 - Structured File
     CSV
     JSON
+    XML
 
 ## Part 5 - More advanced topics
 
@@ -123,7 +124,7 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     Decorator
     Class decorator
     Namespaces
-    Built-in: map(), filter(), reduce(), zip(), ...    
+    Built-in: map(), filter(), reduce(), zip(), enumerate(), ...    
 ### 4 - Object Oriented Programming
     Class object and metaclass type
     Attributes and properties
