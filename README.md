@@ -121,11 +121,13 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     Inner function
     Closure
     Decorator
+    Class decorator
     Namespaces
     Built-in: map(), filter(), reduce(), zip(), ...    
 ### 4 - Object Oriented Programming
     Class object and metaclass type
     Attributes and properties
+    Private by naming convention and name mangling
     Methods: instance, class, static
     Special methods: __init__(), ...
     Multiple Inheritance: __bases__
