@@ -20,6 +20,10 @@ class Dog:
         """A plain method"""
         print(f"{self.name} is barking")
 
+    def __del__(self):
+        """Finalize the current object - Python can't guarantee it is actually called!"""
+        print(f"{self.name} is garbage collected")
+
 
 # instantiate objects of the Dog class
 bob = Dog("Bob")
