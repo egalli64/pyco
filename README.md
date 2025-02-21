@@ -93,6 +93,8 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
 ## Part 4 - Files
 
 ### 1 - File
+    The os module
+    The shutil module
     open() / close(), with
     print(), write()
     read(), readlines(), readline(), for - in
