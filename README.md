@@ -99,10 +99,11 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     print(), write()
     read(), readlines(), readline(), for - in
     pathlib.Path
-### 2 - Structured File
+### 2 - Serialization
     CSV
     JSON
     XML
+    Pickle
 
 ## Part 5 - More advanced topics
 
