@@ -3,15 +3,14 @@ Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 2 - Structured File
+Module 2 - Serialization
 
-CSV - DictWriter
+JSON - dump
 """
 
-import csv
+import json
 
-FILENAME = "friends.csv"
-HEADER = ["Name", "Age", "City"]
+FILENAME = "friends.json"
 
 friends = [
     {"Name": "Tom", "Age": 42, "City": "Madrid"},
@@ -22,10 +21,6 @@ friends = [
     {"Name": "Lee", "Age": 38, "City": "London"},
 ]
 
-# writing each line to the CSV file from a list of dictionaries
-with open(FILENAME, "w", newline="") as file:
-    writer = csv.DictWriter(file, fieldnames=HEADER)
-
-    writer.writeheader()
-    for friend in friends:
-        writer.writerow(friend)
+# writing friends to the JSON file
+with open(FILENAME, "w") as file:
+    json.dump(friends, file)

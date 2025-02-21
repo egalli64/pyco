@@ -3,7 +3,7 @@ Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 2 - Structured File
+Module 2 - Serialization
 
 CSV - writerow
 """
