@@ -3,15 +3,15 @@ Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 3 - RDB
+Module 4 - SQLAlchemy
 
-sqlalchemy - execute
+execute
 """
 
 from sqlalchemy import create_engine, text
 
-COUNTRIES = "sqlite:///p4/m3_rdb/countries.db"
-SCRIPT = "p4/m3_rdb/setup.sql"
+COUNTRIES = "sqlite:///p4/m4_SQLAlchemy/countries.db"
+SCRIPT = "p4/m3_sqlite3/setup.sql"
 
 engine = create_engine(COUNTRIES)
 
