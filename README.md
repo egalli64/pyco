@@ -90,7 +90,7 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     Object/class relation by isinstance()
     Exception: raise, try, except
 
-## Part 4 - Files
+## Part 4 - Persistence
 
 ### 1 - File
     The os module
@@ -104,6 +104,9 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     JSON
     XML
     Pickle
+### 3 - Relational DBMS
+    sqlite3
+    SQLAlchemy
 
 ## Part 5 - More advanced topics
 
