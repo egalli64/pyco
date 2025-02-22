@@ -3,15 +3,15 @@ Python Course - Part 4
 
 https://github.com/egalli64/pyco
 
-Module 3 - RDB
+Module 3 - sqlite3
 
-sqlite3 - executescript
+executescript
 """
 
 import sqlite3
 
-COUNTRIES = "p4/m3_rdb/countries.db"
-SCRIPT = "p4/m3_rdb/setup.sql"
+COUNTRIES = "p4/m3_sqlite3/countries.db"
+SCRIPT = "p4/m3_sqlite3/setup.sql"
 
 with sqlite3.connect(COUNTRIES) as conn:
     with open(SCRIPT, "r") as file:
