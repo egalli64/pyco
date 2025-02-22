@@ -13,10 +13,7 @@ import sqlite3
 # lack of robustness and persistency
 # in-memory database, not using "with" nor checking for exception
 conn = sqlite3.connect(":memory:")
-
 print("connected to in-memory database")
 
-# no "with" means explicit call to close() under programmer responsibility
 conn.close()
-
 print("disconnected to in-memory database")
