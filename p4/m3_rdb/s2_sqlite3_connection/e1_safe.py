@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 3 - RDB
 
-sqlite3 - exception on connect
+sqlite3 - check exception on connect
 """
 
 import sqlite3
