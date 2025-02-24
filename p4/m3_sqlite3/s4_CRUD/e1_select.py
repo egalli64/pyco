@@ -24,9 +24,15 @@ except Exception as ex:
     print("Something went wrong:", ex)
 
 # 3. use result set
-print(cursor.fetchone())
-print(cursor.fetchmany(5))
-print(cursor.fetchall())
+print("Column names", end=": ")
+for col in cursor.description:
+    print(col[0], end=" ")
+print()
+
+print("First row:", cursor.fetchone())
+print("Next 5 rows:", cursor.fetchmany(5))
+print("All the other rows:", cursor.fetchall())
+print("Now the result set has been exahusted:", cursor.fetchone())
 
 # 4. closing
 cursor.close()
