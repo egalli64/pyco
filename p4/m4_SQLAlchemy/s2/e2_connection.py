@@ -11,10 +11,8 @@ Get a Connection (raw)
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
 
-DB_PATH = "sqlite://"
-
 # 1. create an engine
-engine = create_engine(DB_PATH)
+engine = create_engine("sqlite://")
 
 # 2. get a connection
 conn = engine.connect()
@@ -25,7 +23,7 @@ print("Can execute:", conn.execute(text("SELECT 3")).fetchone()[0])
 # 4. close the connection
 conn.close()
 
-# 5. now the connection is unusable
+# 5. now the connection is closed
 try:
     conn.execute(text("SELECT 5"))
 except SQLAlchemyError as ex:
