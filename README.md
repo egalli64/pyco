@@ -104,9 +104,12 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     JSON
     XML
     Pickle
-### 3 - Relational DBMS
-    sqlite3
-    SQLAlchemy
+### 3 - sqlite3
+    Connection: connect(), cursor(), close()
+    Cursor: execute(), close()
+    CRUD commands: fetchone(), fetchmany(), fetchall(), rowcount, lastrowid
+    Transaction: commit(), rollback()
+### 4 - SQLAlchemy
 
 ## Part 5 - More advanced topics
 
