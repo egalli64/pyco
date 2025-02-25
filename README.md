@@ -107,9 +107,13 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
 ### 3 - sqlite3
     Connection: connect(), cursor(), close()
     Cursor: execute(), close()
-    CRUD commands: fetchone(), fetchmany(), fetchall(), rowcount, lastrowid
-    Transaction: commit(), rollback()
+    Cursor (result): fetchone(), fetchmany(), fetchall(), rowcount, lastrowid
+    Transaction (Connection): commit(), rollback()
 ### 4 - SQLAlchemy
+    Engine: create_engine(), connect()
+    Connection: execute(), text(), close()
+    CursorResult: fetchone(), fetchmany(), fetchall(), keys(), rowcount, lastrowid
+    Transaction: Connection.begin(), commit(), rollback(), autocommit, Engine.begin()
 
 ## Part 5 - More advanced topics
 
