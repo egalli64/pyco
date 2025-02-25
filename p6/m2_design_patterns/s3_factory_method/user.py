@@ -1,9 +1,9 @@
 """
-Python Course - Part 5
+Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 8 - Design Pattern
+Module 2 - Design Pattern
 
 Factory Method
 """

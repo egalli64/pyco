@@ -1,16 +1,16 @@
 """
-Python Course
+Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 11 - Log and Test
+Module 1 - Log and Test
 
 The unittest module
 """
 
 import unittest
 
-from p5.m7_log_test.s5_testing import e1_math as m
+from p6.m1_log_test.s5_testing import e1_math as m
 
 
 class TestS5Math(unittest.TestCase):

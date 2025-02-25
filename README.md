@@ -115,7 +115,7 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     CursorResult: fetchone(), fetchmany(), fetchall(), keys(), rowcount, lastrowid
     Transaction: Connection.begin(), commit(), rollback(), autocommit, Engine.begin()
 
-## Part 5 - More advanced topics
+## Part 5 - Deep Dive
 
 ### 1 - Numbers
     The Number hierarchy
@@ -158,13 +158,16 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     defaultdict
     namedtuple
     deque
-### 7 - Log and Test
+
+## Part 6 - Further Topics
+
+### 1 - Log and Test
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
     Unit Test
     unittest: assertions, discover tests
     VS Code and unittest
-### 8 - Design Patterns
+### 2 - Design Patterns
     Singleton
     Factory Method
 

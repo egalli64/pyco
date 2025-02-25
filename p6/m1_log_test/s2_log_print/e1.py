@@ -1,9 +1,9 @@
 """
-Python Course - Part 5
+Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 7 - Log and Test
+Module 1 - Log and Test
 
 Log with print()
 

@@ -1,9 +1,9 @@
 """
-Python Course - Part 2
+Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 3 - Log and Test
+Module 1 - Log and Test
 
 The unittest module
 
