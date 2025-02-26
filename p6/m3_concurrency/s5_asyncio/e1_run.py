@@ -9,17 +9,9 @@ Asynchronous Programming: asyncio run()
 """
 
 import asyncio
+from two_coroutines import lettering
 
-
-async def worker():
-    """A coroutine"""
-    print("Worker task started")
-    await asyncio.sleep(1)
-    print("Worker task terminating")
-    return "Done"
-
-
-print("Switching to asynchronous code")
-result = asyncio.run(worker())
-print("Worker result:", result)
-print("Getting back to synchronous code")
+# create a lettering coroutine and pass it to the event loop
+print("To run a coroutine we need the event loop")
+result = asyncio.run(lettering())
+print("\nWorker result:", result)
