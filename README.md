@@ -170,4 +170,7 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
 ### 2 - Design Patterns
     Singleton
     Factory Method
-
+### 3 - Concurrency
+    Multithreading vs multiprocessing
+    threading
+    multiprocessing
