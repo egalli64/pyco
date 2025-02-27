@@ -176,3 +176,6 @@ Developed on Python 3.13 - <https://www.python.org/downloads/>
     multiprocessing
     Asynchronous programming: async def, await,
     asyncio: run(), create_task(), gather()
+### 4 - Web - REST API
+    Flask - Web framework
+    requests
