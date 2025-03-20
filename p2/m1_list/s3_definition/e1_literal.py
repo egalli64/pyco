@@ -5,11 +5,11 @@ https://github.com/egalli64/pyco
 
 Module 1 - List
 
-A list is a mutable sequence
+Literal definition
 """
-# literal definition
-friends = ["bob", "tom", "kim"]
 
+# a list of friends
+friends = ["bob", "tom", "kim"]
 print("A list:", friends)
 
 # it could be passed to the built-in functions expecting a size object
