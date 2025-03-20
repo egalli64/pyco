@@ -36,8 +36,8 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
 ## Part 2 - Basic Data Structures
 
 ### 1 - List
-    Mutable resizable sequence implementing the array ADT
-    Literal definition
+    Mutable resizable sequence for the array ADT
+    Literal definition and constructor
     Editing by methods and statement del
     Ordering by builtin sorted() and method sort()
     Unordering by random shuffle(), reversing by method reverse()
