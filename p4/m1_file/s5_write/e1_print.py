@@ -5,8 +5,9 @@ https://github.com/egalli64/pyco
 
 Module 1 - File
 
-Write
+Write to file by print()
 """
+
 FILENAME = "my_file.txt"
 friends = ["Tom", "Jenny", "Bob", "Kim", "Micky", "Lee"]
 
@@ -16,10 +17,3 @@ with open(FILENAME, "w") as f:
     for friend in friends:
         print(friend, end=" ", file=f)
     print(file=f)
-
-# same, but append, and using write instead of print
-with open(FILENAME, "a") as f:
-    for friend in friends:
-        f.write(friend)
-        f.write(" ")
-    f.write("\n")
