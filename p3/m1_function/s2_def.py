@@ -15,7 +15,11 @@ Definition and invocation
 
 
 def minimal_function():
-    """A minimal, do-nothing, function"""
+    pass
+
+
+def minimal_function_with_docstring():
+    """A minimal, do-nothing, documented function"""
     pass
 
 
@@ -32,6 +36,9 @@ def greeter(name):
     print(f"Hello, {name}!")
 
 
-# invoking the two functions above
+# invoking the functions defined above
 minimal_function()
+
+minimal_function_with_docstring()
+
 greeter("Tom")
