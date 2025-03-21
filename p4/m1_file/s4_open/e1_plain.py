@@ -10,7 +10,7 @@ Open and close
 
 FILENAME = "my_file.txt"
 
-# open a file in mode write(text)
+# open a file in mode write(text) could recreate a file - previous data would be lost!
 f = open(FILENAME, "w")
 print(FILENAME, "has been created (again?)")
 f.close()
