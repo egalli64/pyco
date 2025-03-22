@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 1 - File
 
-The Path class
+The Path class - write_text()
 """
 
 from pathlib import Path
@@ -19,7 +19,7 @@ for value in range(10):
 
 output_path = Path(OUTPUT_FILENAME)
 if output_path.exists():
-    print(f"The file {OUTPUT_FILENAME} already exists!")
+    print(f"The file '{OUTPUT_FILENAME}' already exists!")
 else:
     # if we don't check, it would overwrite existing data
     output_path.write_text(content)
