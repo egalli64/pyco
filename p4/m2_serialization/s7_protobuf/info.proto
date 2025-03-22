@@ -1,0 +1,19 @@
+/*
+    Python Course - Part 4
+
+    https://github.com/egalli64/pyco
+
+    Module 2 - Serialization
+
+    Protobuf: a .proto file
+
+    To be compiled by: protoc --python_out=. info.proto
+    See: https://github.com/protocolbuffers/protobuf/releases
+ */
+edition = "2023";
+
+message Info {
+    int32 price = 1;
+    double ratio = 2;
+    string message = 3;
+}
