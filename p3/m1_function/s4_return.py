@@ -40,13 +40,18 @@ print("The value returned by solution() is", result)
 
 
 def is_even(value):
-    """A function with two possible return values"""
-    if value % 2 == 0:
-        return True
-        # code after a return in the same control flow is "dead code"
-        # print("This is not good")
-    else:
-        return False
+    """A function that accepts an int with two possible return values"""
+
+    # verbose version
+    # if value % 2 == 0:
+    #     return True
+    #     # code after a return in the same control flow is "dead code"
+    #     # print("This is not good")
+    # else:
+    #     return False
+
+    # compact version
+    return True if value % 2 == 0 else False
 
 
 # a boolean is assigned to result
