@@ -104,6 +104,8 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     JSON
     XML
     Pickle
+    struct
+    Protobuf
 ### 3 - sqlite3
     Connection: connect(), cursor(), close()
     Cursor: execute(), close()
