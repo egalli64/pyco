@@ -7,8 +7,10 @@
 
     Protobuf: a .proto file
 
-    To be compiled by: protoc --python_out=. info.proto
-    See: https://github.com/protocolbuffers/protobuf/releases
+    Requires: pip install protobuf
+    And: https://github.com/protocolbuffers/protobuf/releases
+    Compile it running: protoc --python_out=. info.proto
+    It generates: info_pb2.py
  */
 edition = "2023";
 
