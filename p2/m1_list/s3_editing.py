@@ -20,7 +20,8 @@ friends.insert(3, "lee")
 print("After insert at 3:", friends)
 
 # extend with an iterable
-friends.extend(("ada", "ben", "cho"))
+new_friends = ("ada", "ben", "cho")
+friends.extend(new_friends)
 print("After extend:", friends)
 
 # concatenation among different types doesn't compile
