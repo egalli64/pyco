@@ -14,10 +14,16 @@ friends = ["bobby", "ann", "kim", "li", "luc"]
 print(f"Friends: {friends}\n")
 
 # generate new lists, sorted copies of the original one
-print("Sorted friends:", sorted(friends))
-print("Reversed sorted friends:", sorted(friends, reverse=True))
-print("Friends sorted by len:", sorted(friends, key=len))
+xs = sorted(friends)
+print("Sorted friends:", xs)
 
+xs = sorted(friends, reverse=True)
+print("Reversed sorted friends:", xs)
+
+xs = sorted(friends, key=len, reverse=True)
+print("Friends sorted by len:", xs)
+
+# the original list has not changed
 print(f"The original list: {friends}\n")
 
 # sorting in-place
@@ -28,10 +34,10 @@ print("In-place sorting:", friends)
 friends.sort(reverse=True, key=len)
 print("In-place reverse sorting by len:", friends)
 
-# shuffling
+# shuffling in-place
 random.shuffle(friends)
 print("Shuffled:", friends)
 
-# reverse the order
+# reverse the order in-place
 friends.reverse()
 print("Reversed:", friends)
