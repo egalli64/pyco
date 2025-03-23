@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 1 - File
 
-Write bytes in a bytearray to binary file by write()
+Write bytes to binary file by write()
 """
 
 # an array of small integers - interval [0 .. 255]
@@ -13,7 +13,7 @@ data = [0, 1, 127, 255]
 print("Serializing:", data)
 
 with open("data.bin", "wb") as f:
-    encoded = bytearray(data)
+    encoded = bytes(data)
     f.write(encoded)
 
 # a string - how the characters are actually represented is an internal detail
