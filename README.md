@@ -42,6 +42,7 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Ordering by builtin sorted() and method sort()
     Unordering by random shuffle(), reversing by method reverse()
     List comprehension
+    Shallow copy and deep copy
 ### 2 - Tuple
     Kind of an immutable list
     Literal definition
