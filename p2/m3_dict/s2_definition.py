@@ -21,5 +21,5 @@ users = {27: alice, 42: bob}
 print("A dictionary of users:", users)
 
 # dictionary comprehension
-even_squared = {x: x**2 for x in range(1, 11) if x % 2 != 0}
-print("A dictionary of even numbers and their squared values:", even_squared)
+odd_squared = {x: x**2 for x in range(1, 11) if x % 2 != 0}
+print("A dictionary of odd numbers and their squared values:", odd_squared)
