@@ -27,9 +27,13 @@ ls = list(iter)
 # step 3: use it
 print("The squared values (by function)", ls)
 # same as:
-# print("The squared values (by function)", list(map(to_square, xs)))
+print("The squared values (by function)", list(map(to_square, xs)))
 
 print("The squared values (by lambda)", list(map(lambda x: x**2, xs)))
+
+# map a matrix to a list
+matrix = [(1, 2, 3), (3, 2, 1), (4, 4)]
+print(list(map(sum, matrix)))  # -> [6, 6, 8]
 
 
 # filtering
@@ -46,8 +50,12 @@ print("The even values (by lambda)", list(filter(lambda x: x % 2 == 0, xs)))
 
 # sorting
 
-names = ["billy", "bo", "tom"]
+
+names = ["tom", "billy", "bo"]
 print("Names are:", names)
+
+xs = sorted(names)
+print(xs)
 
 
 def to_len(x):
@@ -55,6 +63,7 @@ def to_len(x):
     return len(x)
 
 
-print("Names sorted by length (by function)", list(sorted(names, key=to_len)))
-print("Names sorted by length (by lambda)", list(sorted(names, key=lambda x: len(x))))
-print("Names sorted by length (by built-in)", list(sorted(names, key=len)))
+print("Names sorted by length (by function)", sorted(names, key=to_len))
+print("Names sorted by length (by function)", sorted(names, key=to_len, reverse=True))
+print("Names sorted by length (by lambda)", sorted(names, key=lambda x: len(x)))
+print("Names sorted by length (by built-in)", sorted(names, key=len))
