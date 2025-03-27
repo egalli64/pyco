@@ -12,7 +12,6 @@ from sqlalchemy import create_engine, text
 
 DB_PATH = "sqlite:///p4/m4_SQLAlchemy/countries.db"
 engine = create_engine(DB_PATH)
-conn = engine.connect()
 
 with engine.begin() as conn:
     # show the initial status
