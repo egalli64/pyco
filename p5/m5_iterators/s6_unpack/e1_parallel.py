@@ -12,6 +12,7 @@ Unpacking - Parallel assignment and swap
 xs = [1, 2, 3, 4]
 print("Given a list:", xs)
 
+# each element should be assigned to a variable
 a, b, c, d = xs
 print(f"Unpack it in a={a}, b={b}, c={c}, and d={d}")
 
