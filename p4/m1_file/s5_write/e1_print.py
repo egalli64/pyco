@@ -12,8 +12,8 @@ FILENAME = "my_file.txt"
 friends = ["Tom", "Jenny", "Bob", "Kim", "Micky", "Lee"]
 
 # (re)write the file
-with open(FILENAME, "w") as f:
+with open(FILENAME, "w") as my_file:
     # print each friend in the file
     for friend in friends:
-        print(friend, end=" ", file=f)
-    print(file=f)
+        print(friend, file=my_file)
+    print(file=my_file)

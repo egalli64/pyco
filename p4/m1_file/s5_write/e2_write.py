@@ -12,8 +12,8 @@ FILENAME = "my_file.txt"
 friends = ["Tom", "Jenny", "Bob", "Kim", "Micky", "Lee"]
 
 # append to file - do not overwrite
-with open(FILENAME, "a") as f:
+with open(FILENAME, "a") as my_file:
     for friend in friends:
-        f.write(friend)
-        f.write(" ")
-    f.write("\n")
+        my_file.write(friend)
+        my_file.write(" ")
+    my_file.write("\n")
