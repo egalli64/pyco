@@ -12,10 +12,10 @@ FILENAME = "my_file.txt"
 
 try:
     # raise an exception if the file already exists
-    f = open(FILENAME, "x")
+    file = open(FILENAME, "x")
 except FileExistsError as ex:
     print("Can't write-open", ex)
 finally:
-    # close f, but only if f has been defined
-    if "f" in locals():
-        f.close()
+    # close file, but only if it has been defined
+    if "file" in locals():
+        file.close()

@@ -13,7 +13,7 @@ FILENAME = "my_file.txt"
 
 # combine try-except and with
 try:
-    with open(FILENAME, "x") as f:
+    with open(FILENAME, "x") as file:
         print(FILENAME, "has been created")
 except FileExistsError as ex:
     print("Can't write-open", ex)
