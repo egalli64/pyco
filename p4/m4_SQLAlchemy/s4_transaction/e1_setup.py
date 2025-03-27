@@ -13,6 +13,7 @@ from sqlalchemy import create_engine, text
 DB_PATH = "sqlite:///p4/m4_SQLAlchemy/countries.db"
 engine = create_engine(DB_PATH)
 
+# (spoiler: implicit commit and connection close)
 with engine.begin() as conn:
     print(conn.execute(text("SELECT * FROM region")).fetchall())
     conn.execute(text("DELETE FROM region WHERE region_id > 4"))
