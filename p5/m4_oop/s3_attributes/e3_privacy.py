@@ -22,8 +22,10 @@ class A:
 a = A()
 
 # accessing an underscored attribute is easy
+a._internal_detail += 1
 print("The internal detail is", a._internal_detail)
 
 # accessing a double underscored attribute is a bit less immediate
 # mangling: the attribute name is prefixed with an underscore and the class name
+a._A__more_internal_detail = 1
 print("The more internal detail is", a._A__more_internal_detail)
