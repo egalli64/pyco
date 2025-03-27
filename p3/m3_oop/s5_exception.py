@@ -19,3 +19,7 @@ try:
     print("I expected to get something in", expected_result)
 except NotImplementedError as ex:
     print("Exception:", ex)
+else:
+    print("No exception")
+finally:
+    print("In any case")
