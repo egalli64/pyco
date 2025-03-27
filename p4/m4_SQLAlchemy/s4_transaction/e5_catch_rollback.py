@@ -16,8 +16,6 @@ engine = create_engine(DB_PATH)
 
 def insert_region(name):
     """Insert a region with the passed name or throw an exception"""
-    conn = engine.connect()
-
     with engine.begin() as conn:
         try:
             sql = text("INSERT INTO region (name) values (:name)")
