@@ -46,12 +46,15 @@ def is_even(value):
     # if value % 2 == 0:
     #     return True
     #     # code after a return in the same control flow is "dead code"
-    #     # print("This is not good")
+    #     print("This is not good")
     # else:
     #     return False
 
     # compact version
-    return True if value % 2 == 0 else False
+    # return True if value % 2 == 0 else False
+
+    # even more compact
+    return value % 2 == 0
 
 
 # a boolean is assigned to result
