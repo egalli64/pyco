@@ -44,7 +44,10 @@ else:
 
 # get() by default return None when the key is missing
 value = odd_squared.get(10)
-print("Get value for key 10 (missing):", value)
+if value == None:
+    print("Get value for key 10 (missing):", value)
+else:
+    print("Unexpected!")
 
 # the get() default return value can be given by the caller
 value = odd_squared.get(10, "Can't find the passed key!")
