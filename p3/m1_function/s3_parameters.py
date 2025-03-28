@@ -53,7 +53,7 @@ greeting2("Doctor")
 def greeting3(*args):
     """A vararg function"""
     print("Hello", end=" ")
-    if len(args) == 0:
+    if not args:
         print("stranger, ", end="")
     for name in args:
         print(f"{name}, ", end="")
@@ -68,7 +68,7 @@ greeting3()
 
 def print_info(name, **kwargs):
     """A keyword-vararg function"""
-    if len(kwargs) == 0:
+    if not kwargs:
         print("No info available for", name)
 
     for key, value in kwargs.items():
