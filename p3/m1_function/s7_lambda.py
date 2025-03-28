@@ -32,8 +32,9 @@ print("The squared values (by function)", list(map(to_square, xs)))
 print("The squared values (by lambda)", list(map(lambda x: x**2, xs)))
 
 # map a matrix to a list
-matrix = [(1, 2, 3), (3, 2, 1), (4, 4)]
-print(list(map(sum, matrix)))  # -> [6, 6, 8]
+matrix = [(1, 3), (2,), (4, 4, 1)]
+mapped = list(map(sum, matrix))  # -> [4, 2, 9]
+print(f"{matrix} mapped to {mapped}")
 
 
 # filtering
@@ -55,7 +56,7 @@ names = ["tom", "billy", "bo"]
 print("Names are:", names)
 
 xs = sorted(names)
-print(xs)
+print("Sorted (natural):", xs)
 
 
 def to_len(x):
@@ -64,6 +65,6 @@ def to_len(x):
 
 
 print("Names sorted by length (by function)", sorted(names, key=to_len))
-print("Names sorted by length (by function)", sorted(names, key=to_len, reverse=True))
+print("Names sorted by reversed length (by function)", sorted(names, key=to_len, reverse=True))
 print("Names sorted by length (by lambda)", sorted(names, key=lambda x: len(x)))
 print("Names sorted by length (by built-in)", sorted(names, key=len))
