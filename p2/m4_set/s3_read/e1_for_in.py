@@ -13,9 +13,9 @@ name = "emanuele"
 
 # a set
 letters = set(name)
-print(f"A set {letters} generated from an iterable {name}")
+print(f"A set '{letters}' generated from an iterable '{name}'")
 
-# loop on it
+# loop on the set
 print("Looping on the set:", end=" ")
 for letter in letters:
     print(letter, end=" ")
