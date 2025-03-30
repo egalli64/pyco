@@ -67,7 +67,8 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
 ### 1 - Function
     Definition: header and body, docstring, pass
     Parameters and arguments
-    Passing arguments by position and by name
+    Passing arguments by position and by keyword
+    Parameter separators keyword-only and positional-only
     Default parameter value
     Varargs and argument unpacking
     Return value, or None
