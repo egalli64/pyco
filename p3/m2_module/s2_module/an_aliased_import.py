@@ -7,6 +7,7 @@ Module 2 - Module
 
 Import a module with alias
 """
+
 import a_module as am
 
 # calling a function defined in the imported module

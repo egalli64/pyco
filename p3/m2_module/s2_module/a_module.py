@@ -7,6 +7,7 @@ Module 2 - Module
 
 A module to be imported
 """
+
 APPLICATION_NAME = "Skynet"
 
 

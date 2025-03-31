@@ -7,6 +7,7 @@ Module 2 - Module
 
 Plain import of a module
 """
+
 import a_module
 
 # calling a function defined in the imported module

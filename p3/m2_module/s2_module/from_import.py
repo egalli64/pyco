@@ -7,10 +7,16 @@ Module 2 - Module
 
 Filtered import from a module
 """
+
 from a_module import greeting
 
 # calling a function defined in the imported module
 greeting("Tom")
 
-# uncomment next line to get a NameError
-# print("The application name is", APPLICATION_NAME)
+try:
+    # can't see APPLICATION_NAME definition (not imported!)
+    print("The application name is", APPLICATION_NAME)
+except NameError as e:
+    print("NameError:", e)
+
+print("Done")

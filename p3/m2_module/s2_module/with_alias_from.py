@@ -7,6 +7,7 @@ Module 2 - Module
 
 Import a module using alias
 """
+
 from a_module import greeting as am_greeter, APPLICATION_NAME as AM_NAME
 
 # calling an aliased function defined in the imported module
