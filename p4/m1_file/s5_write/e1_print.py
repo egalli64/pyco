@@ -16,4 +16,3 @@ with open(FILENAME, "w") as my_file:
     # print each friend in the file
     for friend in friends:
         print(friend, file=my_file)
-    print(file=my_file)
