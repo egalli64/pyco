@@ -8,8 +8,9 @@ Module 2 - Module
 Module search path
 """
 
-import sys
+# the idea was importing the standard csv module, but the local module with the same name hides it!
 import csv
+import sys
 
 try:
     # this module is not expected to exist
@@ -26,6 +27,6 @@ for current in sys.path:
     print(current)
 
 try:
-    print(csv.__version__)
+    print("CSV version:", csv.__version__)
 except AttributeError as ex:
     print("What's going on? -->", ex)
