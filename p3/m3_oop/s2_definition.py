@@ -9,8 +9,12 @@ Class and object
 """
 
 
+class ReallyEmpty:
+    pass
+
+
 class Empty:
-    """Definition of an empty class"""
+    """Definition of an empty class - with just this docstring in it"""
 
 
 # instantiate an object of the Empty class
