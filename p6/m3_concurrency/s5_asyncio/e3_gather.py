@@ -12,12 +12,12 @@ import asyncio
 from two_coroutines import numbering, lettering
 
 
-async def concurrent_print():
+async def main():
     """gather two tasks to run them concurrently"""
     result = await asyncio.gather(numbering(), lettering())
     print()
     return result
 
 
-result = asyncio.run(concurrent_print())
+result = asyncio.run(main())
 print("Gathered result:", result)
