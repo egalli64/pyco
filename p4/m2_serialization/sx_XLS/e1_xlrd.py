@@ -21,7 +21,7 @@ print(f"There are {book.nsheets} worksheets in this workbook")
 print("Worksheet names are", book.sheet_names())
 
 sheet = book.sheet_by_index(0)
-print(f"Sheet {sheet.name} has {sheet.nrows} rows and {sheet.ncols}")
+print(f"Sheet {sheet.name} has {sheet.nrows} rows and {sheet.ncols} columns")
 
 for i in range(sheet.nrows):
     print(sheet.row(i))
