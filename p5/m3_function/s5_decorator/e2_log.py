@@ -14,13 +14,13 @@ def log_decorator(func):
 
     def wrapper(*args, **kwargs):
         """The closure wraps the call to the decorated function"""
-        # 1. before
+        # 1. before, log the input argument
         print(f"Calling {func.__name__} with arguments: {args} and {kwargs}")
 
         # 2. call the wrapped function
         result = func(*args, **kwargs)
 
-        # 3. after
+        # 3. after, log the result
         print(f"{func.__name__} returned: {result}")
         return result
 

@@ -9,20 +9,20 @@ Decorator - An example
 """
 
 
-def simple_decorator(func):
+def decorator(decorated):
     """Generate a function that wraps the passed argument"""
 
     def wrapper(*args, **kwargs):
-        """it captures 'func' and wraps it with extra code"""
+        """Capture the decorated function and wrap it with extra code"""
         print("Before the actual function call")
-        result = func(*args, **kwargs)
+        result = decorated(*args, **kwargs)
         print("After the actual function call")
         return result
 
     return wrapper
 
 
-@simple_decorator
+@decorator
 def hello(name):
     print("Hello,", name)
 

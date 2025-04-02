@@ -44,8 +44,9 @@ def squarer(func):
     return squarer_wrapper
 
 
-@increaser
+# in this case the decorator order is not relevant
 @squarer
+@increaser
 def sum_and_multiply(a, b, c):
     return (a + b) * c
 

@@ -43,4 +43,4 @@ def sum_and_multiply(a, b, c):
     return (a + b) * c
 
 
-print("The caller sees as result", sum_and_multiply(2, 3, c=4))
+print("Decorated sum_and_multiply gives", sum_and_multiply(2, 3, c=4))

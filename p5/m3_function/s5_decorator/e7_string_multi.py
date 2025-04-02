@@ -29,6 +29,7 @@ def exclaim_decorator(func):
     return wrapper
 
 
+# in this case the decorator order is not relevant
 @uppercase_decorator
 @exclaim_decorator
 def greet_generator(name):
