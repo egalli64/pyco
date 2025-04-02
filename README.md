@@ -70,7 +70,6 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Passing arguments by position and by keyword
     Parameter separators keyword-only and positional-only
     Default parameter value
-    Varargs and argument unpacking
     Return value, or None
     Using iterators: iter(), next()
     Functional programming support
@@ -136,12 +135,12 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Search: find(), index(), ...
     Change: split(), join(), ...
 ### 3 - Function
+    Packing and unpacking arguments
     Inner function
     Closure
-    Decorator
-    Class decorator
-    Namespaces
-    Built-in: map(), filter(), reduce(), zip(), enumerate(), ...    
+    Decorator and class decorator
+    Interaction with namespaces
+    Some useful built-in functions: map(), filter(), reduce(), zip(), enumerate(), ...    
 ### 4 - Object Oriented Programming
     Class object and metaclass type
     Attributes and properties
