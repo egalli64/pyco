@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 3 - Function
 
-Inner function - No inner, no recursion
+Factorial function - the iterative way (no inner function, no recursion)
 """
 
 
