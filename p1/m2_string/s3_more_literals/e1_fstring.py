@@ -19,4 +19,9 @@ print(f"The area of a circle with radius {radius} is {math.pi * radius ** 2}")
 print(f"This is an open curly brace '{{' and this is a close one '}}'")
 
 # rounding
-print(f"A pi approximation: {math.pi:.5f}")
+print("Rounding pi to the fifth decimal: {math.pi:.5f}")
+
+print("Dynamically set precision is clumsy with f-strings ...")
+for i in range(5):
+    precision = f".{i}f"
+    print(f"{math.pi:{precision}}")
