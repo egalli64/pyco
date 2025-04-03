@@ -9,7 +9,7 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Objects and types
     Dynamic typing and None
 ### 2 - The string data type
-    Literal string, f-string, r-string
+    Literal string, f-string, format(), r-string
     String as iterable - accessed by iterator (for-in)
     String as immutable sequence: operator [], method index(), operator in
     Slicing on string (immutable sequences)
