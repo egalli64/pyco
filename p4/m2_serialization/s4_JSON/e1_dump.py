@@ -10,7 +10,8 @@ JSON - dump
 
 import json
 
-FILENAME = "friends.json"
+PATH = "p4/m2_serialization/s4_JSON/"
+FILENAME = PATH + "friends.json"
 
 friends = [
     {"Name": "Tom", "Age": 42, "City": "Madrid"},
@@ -21,6 +22,6 @@ friends = [
     {"Name": "Lee", "Age": 38, "City": "London"},
 ]
 
-# writing friends to the JSON file
+# dump the object as a JSON string to file
 with open(FILENAME, "w") as file:
     json.dump(friends, file)
