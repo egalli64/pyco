@@ -102,11 +102,12 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     pathlib.Path
 ### 2 - Serialization
     CSV
+    Reading from XLS and XLSX
     JSON
     XML
-    Pickle
     struct
-    Protobuf
+    pickle
+    protobuf
 ### 3 - sqlite3
     Connection: connect(), cursor(), close()
     Cursor: execute(), close()
