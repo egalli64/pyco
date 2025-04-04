@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 1 - Code robustness
 
-Exception - raise
+Exception - raise a custom exception
 """
 
 
