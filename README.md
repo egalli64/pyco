@@ -46,15 +46,15 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
 ### 2 - Tuple
     Kind of an immutable list
     Literal definition
-    (Kind of) Tuple comprehension
+    Generator expression to emulate a tuple comprehension
 ### 3 - Dictionary
     Mutable collection of key-value pairs implementing the hashtable ADT
     Literal definition, constructor function, dictionary comprehension
     Accessing components by operator (not) in, [], method get()
-    Editing components
+    Editing components by assignment, setdefault(), pop(), ...
     Views by items(), keys(), values()
     Copies by copy(), dict(), deepcopy()
-    Update and merge
+    Update by update() and merge by operator |
 ### 4 - Set
     Kind of a dictionary but with key-only elements
     Literal definition, constructor function, set comprehension
@@ -89,7 +89,6 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Inheritance, super(), override
     Classes relation by issubclass()
     Object/class relation by isinstance()
-    Exception: raise, try, except
 
 ## Part 4 - Persistence
 
@@ -137,7 +136,7 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Change: split(), join(), ...
 ### 3 - Function
     Packing and unpacking arguments
-    Inner function
+    Inner function and recursion
     Closure
     Decorator and class decorator
     Interaction with namespaces
@@ -150,7 +149,7 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
     Special methods: __init__(), ...
     Multiple Inheritance: __bases__
     Method Resolution Order: mro() and __mro__
-    Abstract class and @abstractmethod
+    Abstract Base Class (ABC) and @abstractmethod
 ### 5 - Iterators
     Iterables and iterators: __getitem__, __iter__, __next__
     Generator: yield, expression
@@ -165,7 +164,9 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
 
 ## Part 6 - Further Topics
 
-### 1 - Log and Test
+### 1 - Code robustness: Exception, Log, and Test
+    Exception: raise, try, except, else, finally
+    Standard and custom exceptions
     Log: print() on stderr
     logging: getLogger(), debug(), ..., basicConfig()
     Unit Test
