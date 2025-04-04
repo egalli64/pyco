@@ -5,7 +5,7 @@ https://github.com/egalli64/pyco
 
 Module 1 - Log and Test
 
-Log with print()
+Log with print() to standard error
 
 From terminal, redirect the stderr stream to the log file
     Ex: python script.py 2> script.log
