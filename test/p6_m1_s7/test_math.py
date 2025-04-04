@@ -10,10 +10,10 @@ The unittest module
 
 import unittest
 
-from p6.m1_log_test.s5_testing import e1_math as m
+from p6.m1_robustness.s7_testing import e1_math as m
 
 
-class TestS5Math(unittest.TestCase):
+class TestS7Math(unittest.TestCase):
     def test_add_plain(self):
         expected = 42
         actual = m.add(2, 40)

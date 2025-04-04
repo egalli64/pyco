@@ -3,10 +3,11 @@ Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 1 - Log and Test
+Module 1 - Code robustness
 
 The unittest module - assertNotEqual(), assertAlmostEqual()
 """
+
 import unittest
 import e1_math as m
 

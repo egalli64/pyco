@@ -3,9 +3,11 @@ Python Course - Part 6
 
 https://github.com/egalli64/pyco
 
-Module 1 - Log and Test
+Module 1 - Code robustness
 
 The unittest module - code to be tested
+See the test package under pyco
+From the project home run: python -m unittest discover test -t . -v
 """
 
 
