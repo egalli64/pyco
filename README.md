@@ -110,11 +110,12 @@ Verified on Python 3.13 - <https://www.python.org/downloads/>
 ### 3 - sqlite3
     Connection: connect(), cursor(), close()
     Cursor: execute(), close()
+    Parametrized query as a way to defend against SQL injection attack
     Cursor (result): fetchone(), fetchmany(), fetchall(), rowcount, lastrowid
     Transaction (Connection): commit(), rollback()
 ### 4 - SQLAlchemy
     Engine: create_engine(), connect()
-    Connection: execute(), text(), close()
+    Connection: execute(), text(), also for parameterized queries, close()
     CursorResult: fetchone(), fetchmany(), fetchall(), keys(), rowcount, lastrowid
     Transaction: Connection.begin(), commit(), rollback(), autocommit, Engine.begin()
 
