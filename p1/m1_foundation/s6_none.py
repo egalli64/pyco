@@ -8,7 +8,7 @@ Module 1 - Foundation
 Variables - None
 """
 
-# assign an int object to x
+# x is referencing an int object with 42 as value
 x = 42
 print("The value of x is", x, end=", ")
 print("and its type is", type(x))

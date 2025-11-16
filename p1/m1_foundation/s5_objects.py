@@ -23,7 +23,7 @@ print("Type of price is", type(price))
 # check if the type is the expected one by isinstance
 print("Is message a str?", isinstance(message, str))
 print("Is message an int?", isinstance(message, int))
-print("Is answer a float or an int?", isinstance(answer, (float, int)))
+print("Is answer either a float or an int?", isinstance(answer, (float, int)))
 print("Is answer a str?", isinstance(answer, str))
 
 # the unique id associated with the referenced objects
