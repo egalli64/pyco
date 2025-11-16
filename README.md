@@ -1,5 +1,5 @@
 # pyco - Python course
-Verified on Python 3.13 - <https://www.python.org/downloads/>
+Verified on Python 3.14 - <https://www.python.org/downloads/>
 
 ## Part 1 - Fundamental concepts
 
