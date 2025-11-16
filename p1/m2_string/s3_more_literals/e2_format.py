@@ -21,6 +21,6 @@ print("This is an open curly brace '{' and this is a close one '}'")
 # rounding
 print("Rounding pi to the fifth decimal: {:.5f}".format(math.pi))
 
-print("Dynamically set precision is handier with format() ...")
+print("Dynamically set precision is a bit obscure with format() ...")
 for i in range(5):
     print("{0:.{1}f}".format(math.pi, i))
