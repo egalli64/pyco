@@ -16,12 +16,13 @@ print("The variable id:", id)
 
 # 3. consider this variable as if it was a constant
 ANSWER = 42
+print("ANSWER is meant to be a constant:", ANSWER)
 
 # 4. another variable referencing the same object
 other = id
 print("The variable other:", other)
 
-# 5. changing an immutable variable actually means associating a new object to the variable
+# 5. changing an immutable object actually means associating a new object to the variable
 other += 1
 print("Now other is", other)
 print("But id still refers to", id)
