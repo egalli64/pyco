@@ -48,7 +48,7 @@ class FalseBool:
 
 x = FalseBool()
 if not x:
-    print("An object False when casted to bool is falsy")
+    print("An object False when cast to bool is falsy")
 
 
 class Empty:
