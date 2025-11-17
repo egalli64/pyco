@@ -27,6 +27,5 @@ except:
 # A list is mutable, even if it is defined in a tuple
 slice[1][0] = "kimi"
 print("Changing kim to kimi:", slice)
-
-# No effect on the original tuple
+# Both friends and slice refer to the same object
 print("The change is seen also in the original tuple!", friends[2])
