@@ -32,11 +32,11 @@ print("* 3. check if less then 1/3, elif less then 2/3, or else")
 
 # one of the three block will be executed
 if value < 0.33:
-    print("Close enough to 0.0:")
+    print("Close enough to 0.0")
 elif value < 0.66:
-    print("Close enough to 0.5:")
+    print("Close enough to 0.5")
 else:
-    print("Close enough to 1.0:")
+    print("Close enough to 1.0")
 
 # using 'pass' as placeholder
 print("* 4. check if less than 1/2, else pass")
