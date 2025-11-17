@@ -79,7 +79,7 @@ Verified on Python 3.14 - <https://www.python.org/downloads/>
     Search path: sys.path, PYTHONPATH
     Module __name__, the __main__ module
     Package, import module from package
-### 3 - Object Oriented Programming
+### 4 - Object Oriented Programming
     Class: header and body
     Class body: docstring, attributes, methods
     Object: constructor and initializer

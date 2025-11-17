@@ -3,7 +3,7 @@ Python Course - Part 3
 
 https://github.com/egalli64/pyco
 
-Module 3 - Object Oriented Programming
+Module 4 - Object Oriented Programming
 
 Inheritance
 """
