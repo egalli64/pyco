@@ -16,4 +16,4 @@ print("The central element is:", xs[1][1])
 # a triangular list
 xs = [[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]
 print(xs)
-print("The bottom right element is:", xs[3][3])
+print("The bottom right element is:", xs[-1][-1])
