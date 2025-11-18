@@ -7,6 +7,7 @@ Module 3 - Python Standard Library
 
 Math: some trigonometric functions
 """
+
 import math
 
 deg = 90
