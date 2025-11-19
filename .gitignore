@@ -1,3 +1,4 @@
-/.spyproject/
 /.vscode/
 __pycache__/
+
+*.bat
