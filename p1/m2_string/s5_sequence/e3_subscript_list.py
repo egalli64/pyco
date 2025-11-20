@@ -10,7 +10,7 @@ Sequence - the operator [] on list
 
 # a list is a sequence, too
 lis = ["bob", "tom", "kim", "tim"]
-print("A list:", lis, end="\n\n")
+print("A list:", lis, end="\n\n") # same as: print(f"A list {lis}\n")
 
 # the operator []
 print(f"Its first element (index = 0) is '{lis[0]}'")
