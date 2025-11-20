@@ -14,6 +14,8 @@ radius = 5
 
 # using the {} placeholder to format a string
 print("The area of a circle with radius {} is {}".format(radius, math.pi * radius**2))
+# same as
+print("The area of a circle with radius " + str(radius) + " is " + str(math.pi * radius**2))
 
 # the curly braces are normal characters in a normal string
 print("This is an open curly brace '{' and this is a close one '}'")
