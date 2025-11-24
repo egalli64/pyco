@@ -13,7 +13,8 @@ lis = ["bob", "tom", "kim", "tim"]
 print("A list:", lis, end="\n\n")
 
 # looking for a value in a list
-for target in {"tim", "zoe"}:
+# notice that we can't predict the iteration order in a set
+for target in {"tim", "zoe", "abe"}:
     print("Searching for", target, end=" ... ")
     try:
         pos = lis.index(target)
