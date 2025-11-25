@@ -17,3 +17,12 @@ print(f"From list {info} to set {unique_info}")
 name = "emanuele"
 letters = set(name)
 print(f"From string '{name}' to set {letters}")
+
+# yeah, got it. But I want a set with a name in it!
+friends = {name}
+print(f"From string '{name}' to set {friends}")
+
+# from list to set
+friends_list = [name]
+friends = set(friends_list)
+print(f"From string list {friends_list} to string set {friends}")
