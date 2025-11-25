@@ -58,13 +58,13 @@ print("Names are:", names)
 xs = sorted(names)
 print("Sorted (natural):", xs)
 
-
+# remove it!
 def to_len(x):
     """helper to convert a string to its lenght"""
     return len(x)
 
 
-print("Names sorted by length (by function)", sorted(names, key=to_len))
-print("Names sorted by reversed length (by function)", sorted(names, key=to_len, reverse=True))
-print("Names sorted by length (by lambda)", sorted(names, key=lambda x: len(x)))
 print("Names sorted by length (by built-in)", sorted(names, key=len))
+print("Names sorted by reversed length (by built-in)", sorted(names, key=len, reverse=True))
+# using a lambda here just makes the code more verbose
+print("Names sorted by length (by lambda)", sorted(names, key=lambda x: len(x)))
