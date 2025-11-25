@@ -13,6 +13,7 @@ from copy import deepcopy
 matrix = [[i + j for j in range(3)] for i in range(3)]
 print("A matrix:", matrix)
 
+# each list in other is a _copy_ of the matrix original element
 other = deepcopy(matrix)
 print("A matrix deepcopy:", other, "\n")
 
