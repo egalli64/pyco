@@ -19,7 +19,9 @@ def minimal_function():
 
 
 # to invoke a function it should be already known to Python
-minimal_function()
+x = minimal_function()
+# notice that None is returned implicitely
+print(x)
 
 
 def minimal_function_with_docstring():
