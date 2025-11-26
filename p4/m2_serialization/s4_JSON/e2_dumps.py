@@ -22,3 +22,16 @@ friends = [
 # dump the object into a JSON string
 s = json.dumps(friends)
 print(s)
+
+# _almost_ anything could be serialized to JSON
+print(json.dumps([42, "hello", 43.34]))
+
+# among the notable exceptions, set:
+my_set = {42}
+try:
+    json.dumps(my_set)
+except TypeError as ex:
+    print(ex)
+
+# workaround
+print(json.dumps(list(my_set)))
