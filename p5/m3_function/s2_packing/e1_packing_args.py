@@ -40,3 +40,6 @@ greeting("Hi", "Tom", "Bob")
 
 # three extra arguments
 greeting("Hey", "Tom", "Bob", "Jim")
+
+# the tupla argument is _not_ implicitly unpacked - see unpacking
+greeting("Hey", ("Tom", "Bob", "Jim"))
