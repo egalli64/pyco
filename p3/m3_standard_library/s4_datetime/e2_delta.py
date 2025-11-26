@@ -8,7 +8,7 @@ Module 3 - Python Standard Library
 datetime
 """
 
-from datetime import datetime, date, time, timedelta
+from datetime import datetime, timedelta
 
 
 delta = timedelta(days=3, hours=2)
