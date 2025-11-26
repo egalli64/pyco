@@ -11,19 +11,19 @@ datetime: datetime, date, time
 from datetime import datetime, date, time
 
 d = date(2025, 12, 31)
-print(d)
+print("A date:", d)
 
 t = time(14, 30, 0)
-print(t)
+print("A time:", t)
 
 dt = datetime(2025, 12, 31, 14, 30)
-print(dt)
-print(dt.strftime("%Y %m %d, %H:%M"))
+print("A datetime:", dt)
+print("Formatting a datetime in a custom way:", dt.strftime("%Y %m %d, %H:%M"))
 
-dt = datetime.strptime("2025-12-31", "%Y-%m-%d")
-print(dt)
-print(dt.date())
-print(dt.time())
+dt = datetime.strptime("2026-01-01", "%Y-%m-%d")
+print("A datetime extracted from a string:", dt)
+print("Extracting the date from a datetime:", dt.date())
+print("Extracting the time from a datetime:", dt.time())
 
-print(d.day, d.month, d.year)
-print(t.hour, t.hour, t.min, t.second, t.microsecond)
+print("Extracting components from a date:", d.day, d.month, d.year)
+print("... and from a time:", t.hour, t.minute, t.second, t.microsecond)
