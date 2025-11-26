@@ -10,8 +10,18 @@ Plain import of a module
 
 import a_module
 
-# calling a function defined in the imported module
-a_module.greeting("Tom")
 
-# accessing a variable (constant) defined in the imported module
-print("The application name is", a_module.APPLICATION_NAME)
+def f():
+    """A function defined in this module"""
+    pass
+
+
+if __name__ == "__main__":
+    # calling a function defined in the current module
+    f()
+
+    # calling a function defined in the imported module
+    a_module.greeting("Tom")
+
+    # accessing a variable (constant) defined in the imported module
+    print("The application name is", a_module.APPLICATION_NAME)
