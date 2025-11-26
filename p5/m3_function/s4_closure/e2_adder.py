@@ -19,9 +19,9 @@ def adder(fixed):
     return add
 
 
-# Create an adder closure based on 12
-adder_12 = adder(12)
+# Create an adder closure based on the passed argument
+my_adder = adder(12)
 
-print("Passing different values to the 'adder 12' closure:")
-print("Passing 30 ...", adder_12(30))
-print("Passing -7 ...", adder_12(-7))
+print("Passing different values to 'my_adder' closure:")
+print("Passing 30 ...", my_adder(30))
+print("Passing -7 ...", my_adder(-7))
