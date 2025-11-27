@@ -16,7 +16,7 @@ def decorator(decorated):
         """Capture the decorated function and wrap it with extra code"""
         print("Before the actual function call")
         result = decorated(*args, **kwargs)
-        print("After the actual function call")
+        print("After the actual function call\n")
         return result
 
     return wrapper
@@ -27,5 +27,8 @@ def hello(name):
     print("Hello,", name)
 
 
-print("Invoking the decorated function ...")
+print("Invoking the decorated function (positionally) ...")
 hello("Alice")
+
+print("Invoking the decorated function (by keyword) ...")
+hello(name="Bob")
