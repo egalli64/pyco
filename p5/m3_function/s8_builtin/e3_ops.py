@@ -26,11 +26,12 @@ print("Names:", names)
 
 # zip - notice: names is the shortest iterable passed in
 pairs = tuple(zip(names, values))
-print("Zip names+values:", pairs)
+print("Zip names + values:", pairs)
 
-# enumerate
+# enumerate - each name is paired with its index
 pairs = tuple(enumerate(names))
 print("Enumerate names:", pairs)
 
-pairs = tuple(enumerate(values, 1))
+# enumerate - list of pair, 'natural' index + name
+pairs = list(enumerate(values, 1))
 print("Enumerate values:", pairs)
