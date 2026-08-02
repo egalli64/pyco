@@ -14,11 +14,11 @@ flag = True
 answer = 42
 price = 12.21
 
-# the type of a variable is the type of the object it currently references
-print("Type of message is", type(message))
-print("Type of flag is", type(flag))
-print("Type of answer is", type(answer))
-print("Type of price is", type(price))
+# the variable type is the type of the object it currently references
+print("Type of message is str:", type(message) == str)
+print("Type of flag is bool:", type(flag) == bool)
+print("Type of answer is int:", type(answer) == int)
+print("Type of price is float", type(price) == float)
 
 # check if the type is the expected one by isinstance
 print("Is message a str?", isinstance(message, str))
