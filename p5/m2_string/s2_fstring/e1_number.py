@@ -7,7 +7,6 @@ Module 2 - String
 
 F-string formatting - number
 """
-
 import math
 
 # rounding

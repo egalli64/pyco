@@ -7,7 +7,6 @@ Module 2 - String
 
 F-string formatting - string
 """
-
 s = "Hello, Python!"
 
 # padding and alignment

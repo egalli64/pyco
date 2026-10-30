@@ -7,7 +7,6 @@ Module 2 - String
 
 F-string formatting - datetime
 """
-
 from datetime import datetime
 
 dt = datetime.now()
