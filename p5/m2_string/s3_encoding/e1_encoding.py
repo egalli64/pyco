@@ -7,13 +7,12 @@ Module 2 - String
 
 Encoding and decoding - encoding
 """
-
 # a string with non-ASCII char in it
 s = "Cafè Olè"
-print(f"A string: {s}, {type(s)}, len={len(s)}")
+print(f"A string: {s}, has type {type(s).__name__}, len={len(s)}")
 
 bs = s.encode(encoding="utf-8")
-print(f"As bytes (utf-8, default): {bs}, {type(bs)}, len={len(bs)}\n")
+print(f"As bytes (utf-8, default): {bs}, has type {type(bs).__name__}, len={len(bs)}\n")
 
 try:
     bs = s.encode(encoding="ascii")
