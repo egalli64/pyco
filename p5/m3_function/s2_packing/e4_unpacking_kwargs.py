@@ -19,6 +19,7 @@ info = {"title": "Mr", "name": "White"}
 
 try:
     # won't work, two arguments are expected
+    # noinspection PyArgumentList
     hello(info)
 except TypeError as e:
     print("TypeError ...", e)

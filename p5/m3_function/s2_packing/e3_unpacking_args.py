@@ -19,6 +19,7 @@ values = ("King", "James")
 
 try:
     # won't work, two arguments are expected
+    # noinspection PyArgumentList
     hello(values)
 except TypeError as e:
     print("TypeError ...", e)

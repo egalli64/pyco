@@ -25,6 +25,7 @@ def greeting(salutation, *args):
 
 try:
     # won't work, at least an argument is expected
+    # noinspection PyArgumentList
     greeting()
 except TypeError as e:
     print("TypeError ...", e)

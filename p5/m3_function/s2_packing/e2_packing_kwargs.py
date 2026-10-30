@@ -25,6 +25,7 @@ def print_info(name, **kwargs):
 
 try:
     # won't work, at least an argument is expected
+    # noinspection PyArgumentList
     print_info()
 except TypeError as e:
     print("TypeError ...", e)
