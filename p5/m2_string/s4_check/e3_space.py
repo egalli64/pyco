@@ -7,7 +7,6 @@ Module 2 - String
 
 Check - space / printable
 """
-
 targets = ("\t\n ", "A €!", "")
 
 print("Is the target space?")

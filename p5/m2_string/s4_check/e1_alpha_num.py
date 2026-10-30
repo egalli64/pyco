@@ -5,9 +5,8 @@ https://github.com/egalli64/pyco
 
 Module 2 - String
 
-Check - alpha-numeric
+Check - alphanumeric
 """
-
 targets = ("a", "c7", "42", "", "2?")
 
 print("Is the target alpha-only and not empty?")

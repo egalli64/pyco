@@ -7,7 +7,6 @@ Module 2 - String
 
 Check - case
 """
-
 targets = ("a", "BB", "Aa Bb", "", "AB ab")
 
 print("Is the target lowercase?")
